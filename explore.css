@@ -31,13 +31,19 @@ body {
     padding: 40px 90px;
 }
 
+.mix-radio {
+    display: flex;
+    padding: 40px 160px;
+}
+
 .text-mix {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .img-mix {
     display: flex;
-    justify-content: end;
 
+    justify-content: flex-end;
 }

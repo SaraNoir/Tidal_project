@@ -83,3 +83,22 @@ a:hover {
     font-size: 24px;
     line-height: 1.5;
 }
+
+.video-live {
+    display: flex;
+    background-image: radial-gradient(50% 50% at 75%,rgba(208,20,31,.75),transparent);
+    padding: 130px 160px;
+}
+
+.text-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 90px;
+}
+
+.img-video {
+    display: flex;
+    width: 430px;
+    height: 380px;
+}

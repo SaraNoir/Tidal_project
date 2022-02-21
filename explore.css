@@ -1,0 +1,16 @@
+.explore {
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+.explore h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.explore h2 {
+    text-align: center;
+    font-size: 120px;
+    margin-top: 20px;
+}

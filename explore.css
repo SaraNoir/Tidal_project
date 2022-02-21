@@ -32,12 +32,13 @@ body {
 
 .mix-radio {
     display: flex;
-    padding: 40px 90px;
+    padding: 40px 160px;
 }
 
 .text-mix {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .img-mix {

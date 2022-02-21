@@ -31,10 +31,16 @@ body {
 }
 
 .mix-radio {
+    display: flex;
     padding: 40px 90px;
 }
 
 .text-mix {
     display: flex;
     flex-direction: column;
+}
+
+.img-mix {
+    display: flex;
+    justify-content: flex-end;
 }

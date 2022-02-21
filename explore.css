@@ -44,7 +44,7 @@ a:hover {
 
 .explore h2 {
     text-align: center;
-    font-size: 120px;
+    font-size: 90px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -71,17 +71,7 @@ a:hover {
 .playlist {
     background-color: black;
     text-align: center;
-    padding: 108px 300px;
-}
-
-.playlist h1 {
-    margin: 0px;
-    font-size: 64px;
-}
-
-.playlist p {
-    font-size: 24px;
-    line-height: 1.5;
+    padding: 108px 350px;
 }
 
 .video-live {

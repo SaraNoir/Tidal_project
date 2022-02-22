@@ -72,6 +72,7 @@ a:hover {
 .playlist {
     background-color: black;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .text-playlist {
@@ -94,15 +95,16 @@ a:hover {
 .video-live {
     display: flex;
     background-image: radial-gradient(50% 50% at 75%,rgba(208,20,31,.75),transparent);
-    padding: 130px 160px;
+    padding: 130px 0px;
     overflow: hidden;
+    justify-content: center;
 }
 
 .text-video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 90px;
+    padding-right: 145px;
 }
 
 .img-video {

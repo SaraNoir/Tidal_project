@@ -71,7 +71,22 @@ a:hover {
 .playlist {
     background-color: black;
     text-align: center;
+}
+
+.text-playlist {
     padding: 108px 350px;
+}
+
+.playlist-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.playlist-row img {
+    width: 180px;
+    height: 180px;
 }
 
 .video-live {

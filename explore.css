@@ -117,7 +117,7 @@ a:hover {
     background-image: radial-gradient(50% 50% at 35%,#3a1d5e,transparent);
     display: flex;
     justify-content: center;
-    padding: 40px 0px 65px 0px;
+    padding: 40px 0px 135px 0px;
 }
 
 .credits a {
@@ -127,7 +127,7 @@ a:hover {
 .img-credits {
     display: flex;
     justify-content: center;
-    height: 480px;
+    height: 520px;
 }
 
 .text-credits {
@@ -140,14 +140,14 @@ a:hover {
 .dovunque {
     background-image: radial-gradient(50% 60% at 75%,#55004c,transparent);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .text-dovunque {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-right: 120px;
+    padding-right: 95px;
 }
 
 .img-dovunque {

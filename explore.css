@@ -112,3 +112,27 @@ a:hover {
     width: 430px;
     height: 380px;
 }
+
+.credits {
+    background-image: radial-gradient(50% 50% at 35%,#3a1d5e,transparent);
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 65px 0px;
+}
+
+.credits a {
+    color: #b29eec;
+}
+
+ .img-credits {
+     display: flex;
+     justify-content: center;
+     height: 520px;
+ }
+
+ .text-credits {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-left: 120px;
+ }

@@ -1,9 +1,12 @@
 .conteiner{
-    border:1px solid black;
+    border:1px solid rgb(243, 239, 239);
     height:100%;
     width:100%;
     display: flex;
     gap: 10rem;
+    background: rgb(55,0,68);
+    background:radial-gradient(#1e0028,#000);
+    color: white;
 }
 .card{
     border:1px solid yellow;
@@ -26,9 +29,14 @@
     height: 100%;
     width: 100%;
     border: 2px solid black;
+    background-color: black;
+    color:white;
+
 }
  .fonttext {
      font-size: 10rem;
+     text-align: center;
+    
  }
 
  .textp {
@@ -40,4 +48,11 @@ padding: 30px;
  .img{
 height: 10%;
 width: 10%;
+ }
+ .imgcont{
+     border: 2px solid green;
+     height: max-content;
+     display: flex;
+     gap: 1.5rem;
+    
  }

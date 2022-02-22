@@ -53,14 +53,15 @@ a:hover {
     display: flex;
     background: radial-gradient(circle, rgba(39,46,136,0.5) 0%, rgba(2,2,5,0.5) 100%),
     url(https://tidal.com/_nuxt/img/mixes-carousel.908b22a.jpg) no-repeat center center / contain;
-    padding: 130px 160px;
+    justify-content: center;
+    padding: 130px 0px;
 }
 
 .text-mix {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 120px;
+    padding-right: 96px;
 }
 
 .img-mix {
@@ -74,14 +75,15 @@ a:hover {
 }
 
 .text-playlist {
-    padding: 108px 350px;
+    padding: 108px 0px;
 }
 
 .playlist-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .playlist-row img {
@@ -93,6 +95,7 @@ a:hover {
     display: flex;
     background-image: radial-gradient(50% 50% at 75%,rgba(208,20,31,.75),transparent);
     padding: 130px 160px;
+    overflow: hidden;
 }
 
 .text-video {

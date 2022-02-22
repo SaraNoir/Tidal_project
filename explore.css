@@ -124,15 +124,34 @@ a:hover {
     color: #b29eec;
 }
 
- .img-credits {
-     display: flex;
-     justify-content: center;
-     height: 520px;
- }
+.img-credits {
+    display: flex;
+    justify-content: center;
+    height: 480px;
+}
 
- .text-credits {
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     margin-left: 120px;
- }
+.text-credits {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.dovunque {
+    background-image: radial-gradient(50% 60% at 75%,#55004c,transparent);
+    display: flex;
+    justify-content: center;
+}
+
+.text-dovunque {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+.img-dovunque {
+    display: flex;
+    justify-content: center;
+    height: 520px;
+}

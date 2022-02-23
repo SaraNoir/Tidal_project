@@ -1,6 +1,6 @@
 
 .bold{
-font-weight: bolder;
+font-weight: 900;
 }
  a{
      text-decoration: none;
@@ -16,11 +16,23 @@ body{
 
  .topCard{
     height: max-content;
-    border: 2px solid yellow;
+    
     display: flex;
     justify-content: space-between;
+    padding:50px 70px 0;
+    align-items: center;
+    
 } 
 
+.topCard__logo{
+
+width: 170px;
+}
+.buttonForm{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
 .page1{
   height: 100%;
@@ -34,6 +46,8 @@ body{
     color:white;
     margin-left: 300px;
     margin-top:150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .page2{
@@ -42,6 +56,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     gap: 20px;
     
 }
@@ -52,21 +67,29 @@ body{
     width: 100%;
     height: 100%;
     color: white;
+    text-align: center;
+    margin: 200px 0;
+ 
     
+}
+.page3>h1{
+    font-size: 60px;
 }
 .cardForm{
    
     display: flex;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+   gap:80px;
+    
 }
-header{
-    display: flex;
-    justify-content: space-between;
+
+hr{
+    border: 1px solid grey;
 }
+
  
 .qualityForm{
-border: 2px solid green;
+
 width:max-content;
 height: 200px;
 background-color: #09090a;
@@ -75,8 +98,14 @@ color: white;
 font-size: 30px;
 }
 
-.card5{
-    border: 3px solid salmon;
+.page4{
+   
+   
+    width: 100%;
+    height: 100%;
+}
+ 
+.card4{
     height: 20rem;
     width: 15rem;
     color: white;
@@ -148,6 +177,3 @@ background-color: #800d21;
     background-color: #201780;
 }
 
-.card4{
-    background-color: #024272;
-}

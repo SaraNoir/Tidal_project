@@ -1,4 +1,4 @@
-.conteiner{
+.explore{
     border:1px solid rgb(243, 239, 239);
     height:100%;
     width:100%;
@@ -8,14 +8,14 @@
     background:radial-gradient(#1e0028,#000);
     color: white;
 }
-.card{
+.explore_card{
     border:1px solid yellow;
     width: 50%;
     height: 50%;
     padding-left: 15rem;
 
 }
-.cardimg{
+.explore_card-img{
     border: 1px solid red;
     height:50%;
     width: 50%;
@@ -25,7 +25,7 @@
 
 }
 
-.container2 {
+.album {
     height: 100%;
     width: 100%;
     border: 2px solid black;
@@ -33,30 +33,30 @@
     color:white;
 
 }
- .fonttext {
+ .album-text {
      font-size: 10rem;
      text-align: center;
     
  }
 
- .textp {
+ .album-p {
 font-size: 35px;
 text-align: center;
 padding: 30px;
  }
 
- .img{
+ .album_pic-pic{
 height: 10%;
 width: 10%;
  }
- .imgcont{
+ .album_pic{
      border: 2px solid green;
      height: max-content;
      display: flex;
      gap: 1.5rem;
  }
 
- .container3 {
+ .info {
     border:5px solid red;
     height: max-content;
     background-color: #000;
@@ -67,18 +67,18 @@ width: 10%;
     gap: 100px;
  }
 
- .item3 {
+ .info_item {
 display: flex;
 height: 270px;
 border: 4px solid purple;
 font-size: 20px;
  }
 
-.img3 {
+.info_item-pic {
     height: 240px;
 }
 
-.son3 {
+.info_item-pic {
     padding-left: 70px;
     margin-left: 240px;
 }

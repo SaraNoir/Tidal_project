@@ -214,11 +214,12 @@ a:hover {
 .scopri-grid-items:nth-child(2) {
     /* background-image: linear-gradient(359.43deg,#101012 .47%,rgba(16,16,18,.8017) 50.56%,rgba(16,16,18,0) 87%),
     url(/img/applewatch.png); */
-    background-image: url(/img/applewatch.png);
+    background-image: url(/img/Screenshot-2022-02-23-at-12.33.55.png);
     background-color: #080808;
     background-repeat: no-repeat;
     background-size: 55%;
-    background-position: top;
+    background-position-y: 10%;
+    background-position-x: 50%;
 }
 
 .scopri-grid-items:nth-child(3) {

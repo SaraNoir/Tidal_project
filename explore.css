@@ -141,6 +141,7 @@ a:hover {
     background-image: radial-gradient(50% 60% at 75%,#55004c,transparent);
     display: flex;
     justify-content: flex-end;
+    padding: 60px 0px 140px 0px;
 }
 
 .text-dovunque {
@@ -154,4 +155,90 @@ a:hover {
     display: flex;
     justify-content: center;
     height: 520px;
+}
+
+.scopri {
+    padding: 100px;
+}
+
+.scopri h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 130px;
+    color: black;
+    -webkit-text-stroke: 2px rgba(128, 128, 128, 0.3);
+    letter-spacing: 2px;
+}
+
+.scopri-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.scopri-grid-items {
+    padding: 40px;
+    border-radius: 15px;
+    height: 530px;
+    width: 400px;
+}
+
+.scopri-grid-items h2 {
+    font-size: 22px;
+}
+
+.scopri-grid-items p {
+    font-size: 18px;
+}
+
+.scopri-grid-items a {
+    text-decoration: none;
+}
+
+.scopri-grid-items:hover {
+    filter: drop-shadow(0px 0px 30px rgba(128, 128, 128, 0.2));
+    transition: all 0.3s ease-in-out;
+}
+
+.scopri-grid-items:nth-child(1) {
+    background-image: url(/img/devices-bg.3dd0017.png);
+    background-color: #080808;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-y: 20%;
+    background-position-x: right;
+}
+
+.scopri-grid-items:nth-child(2) {
+    /* background-image: linear-gradient(359.43deg,#101012 .47%,rgba(16,16,18,.8017) 50.56%,rgba(16,16,18,0) 87%),
+    url(/img/applewatch.png); */
+    background-image: url(/img/applewatch.png);
+    background-color: #080808;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: top;
+}
+
+.scopri-grid-items:nth-child(3) {
+    background-image: url(img/card-soundquality.c2cb0bf.jpg);
+    background-color: #101011;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-box {
+    height: 300px;
+}
+
+
+.scopri-grid-items:nth-child(3) .grid-box {
+    height: 225px;
+}
+
+.grid-box h3 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 70px;
 }

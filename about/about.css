@@ -89,7 +89,7 @@ font-size: 20px;
 }
 
 .patreon {
-height: max-content;
+height: 75rem;
 border: 2px solid purple;
 background-color: #000;
 }
@@ -103,26 +103,45 @@ background-color: #000;
 .patreon_card-pic1 {
  border: 2px solid rgb(180, 5, 5);
  height: 48rem;
- width: 35rem;
+ width: 40rem;
  background-image: url(../common/card1.jpg);
   background-size: contain;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-self: top;
+ 
 }
 
 .patreon_card-pic2 {
     border: 2px solid rgb(180, 5, 5);
     height: 48rem;
-    width: 35rem;
+    width: 40rem;
     background-image: url("../common/card2.jpg");
     background-size: contain;
+    border-radius:3%;
 }
 .patreon_card-pic3 {
     border: 2px solid rgb(180, 5, 5);
     height: 48rem;
-    width: 35rem;
+    width: 40rem;
     background-image: url("../common/card3.png");
     background-size: contain;
+    border-radius: 3%;
 }
 
 .album-text>h1{
     font-size: 130px;
 }
+.tidalcard{
+    border: 1px solid white;
+    align-self: center;
+    max-width: 66%;
+    height:3rem;
+    font-size: 2rem;
+    padding-left: 5rem;
+    
+}
+ .master{
+     color: tomato;
+ }

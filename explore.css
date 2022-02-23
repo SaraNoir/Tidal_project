@@ -53,15 +53,14 @@ a:hover {
     display: flex;
     background: radial-gradient(circle, rgba(39,46,136,0.5) 0%, rgba(2,2,5,0.5) 100%),
     url(https://tidal.com/_nuxt/img/mixes-carousel.908b22a.jpg) no-repeat center center / contain;
-    justify-content: center;
-    padding: 130px 0px;
+    justify-content: space-evenly;
+    padding: 130px 240px;
 }
 
 .text-mix {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 96px;
 }
 
 .img-mix {
@@ -95,16 +94,15 @@ a:hover {
 .video-live {
     display: flex;
     background-image: radial-gradient(50% 50% at 75%,rgba(208,20,31,.75),transparent);
-    padding: 130px 0px;
+    padding: 130px 240px;
     overflow: hidden;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .text-video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 145px;
 }
 
 .img-video {
@@ -116,8 +114,11 @@ a:hover {
 .credits {
     background-image: radial-gradient(50% 50% at 35%,#3a1d5e,transparent);
     display: flex;
-    justify-content: center;
-    padding: 40px 0px 135px 0px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 135px;
+    padding-left: 190px;
+    padding-right: 120px;
 }
 
 .credits a {
@@ -134,7 +135,6 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 120px;
 }
 
 .dovunque {

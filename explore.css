@@ -258,6 +258,7 @@ a:hover {
 
 .text-prova button {
     background-color: white;
+    border: none;
     border-radius: 10px;
     height: 60px;
     width: 250px;

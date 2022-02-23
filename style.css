@@ -1,163 +1,170 @@
-
-.bold{
-font-weight: 900;
+.bold {
+    font-weight: 900;
 }
- a{
-     text-decoration: none;
-     color: white;
- }
 
-body{
+.fontColor {
+    color: white;
+}
+
+.textAlign {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
     background-color: black;
-    border: 1pxsolid orange;
     height: max-content;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
- .topCard{
+.topCard {
     height: max-content;
-    
+
     display: flex;
     justify-content: space-between;
-    padding:50px 70px 0;
+    padding: 50px 70px 0;
     align-items: center;
-    
-} 
 
-.topCard__logo{
-
-width: 170px;
 }
-.buttonForm{
+
+.topCard__logo {
+
+    width: 170px;
+}
+
+.buttonForm {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.page1{
-  height: 100%;
-  background-color: #094f4c;
+.page1 {
+    height: 100%;
+    background-color: #094f4c;
 }
 
-.leftCard{
+.leftCard {
     border: 2px solid violet;
     width: 20rem;
     height: 30rem;
-    color:white;
     margin-left: 300px;
-    margin-top:150px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
 }
 
-.page2{
-   
-    
+.page2 {
+
+
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
 
-.page3{
-   
+.page3 {
+
     border: 2px solid black;
     width: 100%;
     height: 100%;
-    color: white;
-    text-align: center;
+
     margin: 200px 0;
- 
-    
-}
-.page3>h1{
-    font-size: 60px;
-}
-.cardForm{
-   
-    display: flex;
-    justify-content: center;
-   gap:80px;
-    
+
+
 }
 
-hr{
+.page3>h1 {
+    font-size: 60px;
+}
+
+.cardForm {
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+hr {
     border: 1px solid grey;
 }
 
- 
-.qualityForm{
 
-width:max-content;
-height: 200px;
-background-color: #09090a;
-margin:20px 200px;
-color: white;
-font-size: 30px;
+.qualityForm {
+
+    width: max-content;
+    height: 200px;
+    background-color: #09090a;
+    margin: 20px 200px;
+    font-size: 30px;
 }
 
-.page4{
-   
-   
+.page4 {
+
+
     width: 100%;
     height: 100%;
 }
- 
-.card4{
+
+.card4 {
     height: 20rem;
     width: 15rem;
-    color: white;
+
 }
-.page5{
-   
-   
+
+.page5 {
+
+
     width: 100%;
     height: 100%;
 
 }
 
-.whatIf{
+.whatIf {
     background-color: #09090a;
-    color: white;
-    text-align: center;
+
     margin-top: 200px;
-    
+
 }
 
-.whatIf>p{
-    padding:200px;
+.whatIf>p {
+    padding: 200px;
     font-size: 35px;
 }
 
-.page6{
-   
-  
-    width: 100%;
-    height: 100%;
-}
-.page7{
-   
-   
+.page6 {
+
+
     width: 100%;
     height: 100%;
 }
 
-button{
-    color:white;
+.page7 {
+
+
+    width: 100%;
+    height: 100%;
+}
+
+button {
     background-color: transparent;
     border: transparent;
 }
 
-#free{
-color: black;
-background-color: white;
-border-radius: 5px;
-padding: 5px 20px;
+#free {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
-.sizeCard{
+.sizeCard {
     width: 25rem;
     height: 40rem;
     border-radius: 5px;
@@ -165,15 +172,28 @@ padding: 5px 20px;
 }
 
 
-.card1{
-background-color: #800d21;
+.card1 {
+    background-color: #800d21;
 }
 
-.card2{
-   background-color: #5b0a62;
+.card2 {
+    background-color: #5b0a62;
 }
 
-.card3{
+.card3 {
     background-color: #201780;
 }
 
+.hifi{
+    background-color: #33a39d;
+    width: max-content;
+}
+
+.hifiPlus{
+    background-color: #fcae63;
+    width: max-content;
+}
+#link{
+    text-decoration: underline;
+    text-decoration-color: white;
+}

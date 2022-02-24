@@ -385,7 +385,7 @@ footer p {
   padding: 20px 150px 5px 150px;
 }
 
-footer svg {
+.footer-credits svg {
   fill: #9b9b9b;
   width: 25px;
   padding: 15px;
@@ -399,6 +399,53 @@ footer svg:hover {
 hr {
   margin-left: 150px;
   margin-right: 150px;
-  border: solid 0.5px #9b9b9b;
+  border: solid 0.3px #9b9b9b;
   opacity: 0.5;
+}
+
+.footer-copyright {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  padding: 0px 150px 50px 150px;
+}
+
+.footer-copyright svg {
+  fill: #9b9b9b;
+  width: 25px;
+  height: 25px;
+  padding-right: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-copyright-col1 {
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright-col2 {
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright-col2 ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.footer-copyright-col2 li {
+  display: inline;
+}
+
+.footer-copyright-col2 a {
+  color: white;
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 20px;
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-copyright-col2 a:hover {
+  color: #0ff;
+  text-transform: underline;
 }

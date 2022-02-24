@@ -318,8 +318,6 @@ header svg:hover {
 }
 
 .scopri-grid-items:nth-child(2) {
-  /* background-image: linear-gradient(359.43deg,#101012 .47%,rgba(16,16,18,.8017) 50.56%,rgba(16,16,18,0) 87%),
-    url(/img/applewatch.png); */
   background-image: url(/img/Screenshot-2022-02-23-at-12.33.55.png);
   background-color: #080808;
   background-repeat: no-repeat;
@@ -399,6 +397,98 @@ footer p {
   line-height: 20px;
 }
 
+.footer-grid {
+  display: flex;
+  padding: 100px 160px 20px 160px;
+  background-color: #09090a;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.8rem;
+}
+
+.footer-grid h3 {
+  font-size: 18px;
+  color: #9b9b9b;
+  font-weight: 200;
+}
+
+.footer-grid a {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-grid a:hover {
+  text-decoration: underline;
+  color: #0ff;
+}
+
+.footer-grid ul {
+  padding: 0px;
+}
+
+.footer-grid-col1 {
+  height: 100%;
+  width: 25%;
+  display: grid;
+  grid-template-columns: max-content;
+}
+
+.footer-grid-col2 {
+  height: 100%;
+  width: 25%;
+  display: grid;
+  grid-template-columns: max-content;
+}
+
+.footer-grid-col3 {
+  height: 100%;
+  width: 25%;
+}
+
+.footer-grid-col4 {
+  height: 100%;
+  width: 25%;
+}
+
+.footer-grid-col5 {
+  height: 100%;
+  width: 25%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  line-height: 3rem;
+}
+
+.prova-button {
+  margin-top: 50px;
+}
+
+.prova-button button {
+  border: solid 1px #0ff;
+  border-radius: 5px;
+  background-color: #09090a;
+  padding: 15px 0px;
+  width: 100%;
+  color: #0ff;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.prova-button button:hover {
+  background-color: rgba(0, 255, 255, 0.25);
+}
+
+/*  */
+
 .footer-credits {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -412,8 +502,13 @@ footer p {
   transition: all 0.3s ease-in-out;
 }
 
-footer svg:hover {
+.footer-credits svg:hover {
   fill: white;
+}
+
+.footer-credits-col2 {
+  display: flex;
+  align-items: center;
 }
 
 hr {

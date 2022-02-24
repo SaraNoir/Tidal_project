@@ -1,4 +1,3 @@
-
 .barnav {
     display: flex;
     height: 10rem;
@@ -92,25 +91,28 @@ a {
     flex-wrap: nowrap;
     gap: 1.2rem;
 }
-.explore{
-    border:1px solid rgb(243, 239, 239);
+
+.explore {
+    
     height: 45rem;
-    width: 200rem;
+  
     display: flex;
-    background: rgb(55,0,68);
-    background:radial-gradient(#1e0028,#000);
+    background: rgb(55, 0, 68);
+    background: radial-gradient(#1e0028, #000);
     color: white;
 }
-.explore_card{
-    border:1px solid yellow;
+
+.explore_card {
+   
     width: 50%;
     height: 50%;
     padding-left: 15rem;
 
 }
-.explore_card-pic{
-    border: 1px solid red;
-    height:50%;
+
+.explore_card-pic {
+    
+    height: 50%;
     width: 50%;
     background-image: url("../common/imm.png");
     background-size: contain;
@@ -121,36 +123,40 @@ a {
 .album {
     height: 100%;
     width: 100%;
-    border: 2px solid black;
     background-color: black;
-    color:white;
+    color: white;
 
 }
- .album-text {
-     font-size: 10rem;
-     text-align: center;
-    
- }
 
- .album-p {
-font-size: 35px;
-text-align: center;
-padding: 30px;
- }
+.album-text {
+    font-size: 13rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 2px rgba(128, 128, 128, 0.3);
+    letter-spacing: 2px;
 
- .album_pic-pic{
-height: 10%;
-width: 10%;
- }
- .album_pic{
-     border: 2px solid green;
-     height: max-content;
-     display: flex;
-     gap: 1.5rem;
- }
+}
 
- .info {
-    border:5px solid red;
+.album-p {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+.album_pic-pic {
+    height: 10%;
+    width: 10%;
+}
+
+.album_pic {
+    height: max-content;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.info {
     height: max-content;
     background-color: #000;
     color: white;
@@ -158,14 +164,13 @@ width: 10%;
     flex-direction: column;
     justify-content: space-between;
     gap: 100px;
- }
+}
 
- .info_item {
-display: flex;
-height: 270px;
-border: 4px solid purple;
-font-size: 20px;
- }
+.info_item {
+    display: flex;
+    height: 270px;
+    font-size: 20px;
+}
 
 .info_item-pic {
     height: 240px;
@@ -177,53 +182,52 @@ font-size: 20px;
 }
 
 .patreon {
+   background-color: #000;
+    height: 75rem;
 
-height: 75rem;
-
-
-border: 2px solid purple;
 }
 
 
-.patreon-card{
+.patreon-card {
     display: flex;
     justify-content: space-around;
-   
+
 }
 
 
 .patreon_card-pic1 {
- border: 2px solid rgb(180, 5, 5);
- height: 48rem;
- width: 37rem;
- background-image: url(../common/card1.jpg);
-  background-size: contain;
-  border-radius: 3%;
-  align-self: top;
-  background-repeat:no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  padding-left:1rem;
- 
- 
+    
+    height: 48rem;
+    width: 37rem;
+    background-image: url(../common/card1.jpg);
+    background-size: contain;
+    border-radius: 3%;
+    align-self: top;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+
+
 }
 
 .patreon_card-pic2 {
-    border: 2px solid rgb(180, 5, 5);
+
     height: 48rem;
     width: 37rem;
     background-image: url("../common/card2.jpg");
     background-size: contain;
-    border-radius:3%;
+    border-radius: 3%;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-  flex-direction: column;
-  align-self: top;
+    flex-direction: column;
+    align-self: top;
 }
+
 .patreon_card-pic3 {
-    border: 2px solid rgb(180, 5, 5);
+   
     height: 48rem;
     width: 40rem;
     background-image: url("../common/card3.png");
@@ -232,88 +236,95 @@ border: 2px solid purple;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-  flex-direction: column;
-  align-self: top;
+    flex-direction: column;
+    align-self: top;
 }
 
-.album-text>h1{
+.album-text>h1 {
     font-size: 130px;
 }
-.tidalcard{
-    border: 1px solid white;
+
+.tidalcard {
+    
     align-self: center;
-    width:36.5rem;
-    height:10rem;
+    width: 36.5rem;
+    height: 10rem;
     font-size: 2rem;
-    padding-left:3rem;
+    padding-left: 3rem;
     text-align: center;
     margin-top: 11.5rem;
-    
+
 }
- .master{
-     color: rgb(248, 142, 123);
-     font-size: 2.5rem;
-     
- }
- 
- 
- 
- .font{
-     color: white;
-     font-size: 1.5rem;
-     margin-top: 3.5rem;
-     font-weight: bold;
- 
-   
 
- }
- .tidalFont{
-     color: white;
-     font-size: 2.5rem;
-     margin-bottom: 3rem;
- }
- .footcard{
-     border: 1px solid greenyellow;
-     width:36.5rem;
-    height:15rem;
+.master {
+    color: rgb(248, 142, 123);
+    font-size: 2.5rem;
+
+}
+
+
+
+.font {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    font-weight: bold;
+
+
+
+}
+
+.tidalFont {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.footcard {
+  
+    width: 36.5rem;
+    height: 15rem;
     margin-bottom: 5rem;
+
+}
+
+.originals {
+  
+    width: 36.5rem;
+    height: 15rem;
+}
+
+.originalFont {
+    margin-top: 2.2rem;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.dispositivi {
     
- }
- .originals{
-    border: 1px solid rgb(255, 47, 203);
-    width:36.5rem;
-   height:15rem;
- }
- .originalFont{
-     margin-top: 2.2rem;
-     color: white;
-     font-size: 2rem;
+    width: 36.5rem;
+    height: 15rem;
+    margin-bottom: 5rem;
 
- }
+}
 
- .dispositivi{
-    border: 1px solid rgb(255, 47, 203);
-    width:36.5rem;
-   height:15rem;
-   margin-bottom: 5rem;
-   
- }
- .fontSpace{
-     margin-top: 6rem;
-     color: white;
-     font-size: 1.5rem;
-     font-weight: bold;
- }
+.fontSpace {
+    margin-top: 6rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 
 
- .er-fonno {
+.er-fonno {
     border: 3px solid purple;
     height: 50rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 1.8rem ;
+    font-size: 1.8rem;
 }
 
 .inizi {
@@ -358,3 +369,97 @@ li {
     line-height: 3rem;
 }
 
+.cardForm{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.greenContainer {
+    background-color: #33a39d;
+  
+    width: 7rem;
+    
+   
+}
+
+.orangeContainer {
+    background-color: #fcae63;
+}
+
+.greenList {
+    background-color: #72c5c1;
+    font-size: 2rem;
+    
+}
+.greenList>ul{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding:1rem 8rem;
+}
+
+.orangeList>ul{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding:1rem 8rem;
+}
+.orangeList {
+    background-color: #fac28c;
+}
+
+#link {
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-bottom: 500px;
+}
+
+.box {
+    width: max-content;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.payForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.payForm>a {
+    color: black;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.payForm>button {
+    background-color: white;
+    width: max-content;
+    padding: 20px 100px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.title{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+
+}
+.page6{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.visualizza{
+    text-align: center;
+    height: 4rem;
+    background-color: #000;
+    color: white;
+    font-size: 2rem;
+
+}

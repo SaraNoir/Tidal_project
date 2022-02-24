@@ -172,28 +172,68 @@ button {
 }
 
 
-.card1 {
+.redBox {
     background-color: #800d21;
 }
 
-.card2 {
+.purpleBox {
     background-color: #5b0a62;
 }
 
-.card3 {
+.blueBox {
     background-color: #201780;
 }
 
-.hifi{
+.greenContainer {
     background-color: #33a39d;
-    width: max-content;
+    
+
 }
 
-.hifiPlus{
+.orangeContainer {
     background-color: #fcae63;
-    width: max-content;
+   
+
 }
+
+.greenList {
+    background-color: #72c5c1;
+    
+   
+    
+}
+
+.orangeList {
+    background-color: #fac28c;
+
+}
+
 #link{
     text-decoration: underline;
     text-decoration-color: white;
+    margin-bottom: 500px;
 }
+
+ .box{
+    width: max-content;
+    padding: 40px;
+    border-radius: 10px;
+ }
+ .payForm{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 300px;
+ }
+ .payForm>a{
+     color: black;
+     text-decoration: underline;
+     margin-top: 25px;
+ }
+ .payForm>button{
+     background-color: white;
+     width: max-content;
+     padding: 10px 70px;
+     border-radius: 10px;
+
+ }                                      

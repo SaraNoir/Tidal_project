@@ -289,4 +289,54 @@ border: 2px solid purple;
 
  }
 
+ .er-fonno {
+    border: 3px solid purple;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.8rem ;
+}
+
+.inizi {
+    border: 3px solid black;
+    height: 100%;
+    width: 25%;
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+.scopri-TIDAL {
+    border: 3px solid black;
+    height: 100%;
+    width: 25%;
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+.il-mio-account {
+    border: 3px solid black;
+    height: 100%;
+    width: 25%;
+}
+
+.azienda {
+    border: 3px solid black;
+    height: 100%;
+    width: 25%;
+}
+
+.freetest {
+    border: 3px solid black;
+    height: 100%;
+    width: 25%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 3rem;
+}
 

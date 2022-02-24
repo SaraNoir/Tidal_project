@@ -431,15 +431,11 @@ footer p {
 .footer-grid-col1 {
   height: 100%;
   width: 25%;
-  display: grid;
-  grid-template-columns: max-content;
 }
 
 .footer-grid-col2 {
   height: 100%;
   width: 25%;
-  display: grid;
-  grid-template-columns: max-content;
 }
 
 .footer-grid-col3 {

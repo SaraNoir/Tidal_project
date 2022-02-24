@@ -89,7 +89,7 @@ font-size: 20px;
 }
 
 .patreon {
-height: max-content;
+height: 75rem;
 border: 2px solid purple;
 background-color: #000;
 }
@@ -97,32 +97,103 @@ background-color: #000;
 .patreon-card{
     display: flex;
     justify-content: space-around;
+   
 }
 
 
 .patreon_card-pic1 {
  border: 2px solid rgb(180, 5, 5);
  height: 48rem;
- width: 35rem;
+ width: 37rem;
  background-image: url(../common/card1.jpg);
   background-size: contain;
+  border-radius: 3%;
+  align-self: top;
+  background-repeat:no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-left:1rem;
+ 
+ 
 }
 
 .patreon_card-pic2 {
     border: 2px solid rgb(180, 5, 5);
     height: 48rem;
-    width: 35rem;
+    width: 37rem;
     background-image: url("../common/card2.jpg");
     background-size: contain;
+    border-radius:3%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  flex-direction: column;
+  align-self: top;
 }
 .patreon_card-pic3 {
     border: 2px solid rgb(180, 5, 5);
     height: 48rem;
-    width: 35rem;
+    width: 40rem;
     background-image: url("../common/card3.png");
     background-size: contain;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .album-text>h1{
     font-size: 130px;
 }
+.tidalcard{
+    border: 1px solid white;
+    align-self: center;
+    width:36.5rem;
+    height:10rem;
+    font-size: 2rem;
+    padding-left:3rem;
+    text-align: center;
+    margin-top: 11.5rem;
+    
+}
+ .master{
+     color: rgb(248, 142, 123);
+     font-size: 2.5rem;
+     
+ }
+ 
+ 
+ 
+ .font{
+     color: white;
+     font-size: 1.5rem;
+     margin-top: 3.5rem;
+     font-weight: bold;
+     
+   
+
+ }
+ .tidalFont{
+     color: white;
+     font-size: 2.5rem;
+     margin-bottom: 3rem;
+ }
+ .footcard{
+     border: 1px solid greenyellow;
+     width:36.5rem;
+    height:15rem;
+    margin-bottom: 5rem;
+    
+ }
+ .originals{
+    border: 1px solid rgb(255, 47, 203);
+    width:36.5rem;
+   height:15rem;
+ }
+ .originalFont{
+     padding-top:3rem;
+     font-weight: bolder;
+     color: white;
+     font-size: 2rem;
+
+ }

@@ -1,3 +1,5 @@
+/* ----------------- TAG GENERALI ----------------- */
+
 * {
   color: white;
 }
@@ -30,6 +32,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* ----------------- HEADER ----------------- */
 
 .header-explore {
   display: flex;
@@ -110,6 +114,8 @@ header svg:hover {
   background-color: rgba(255, 255, 255, 0.753);
 }
 
+/* ----------------- ESPLORA L'APP ----------------- */
+
 .explore {
   background-color: black;
   padding-top: 80px;
@@ -127,6 +133,8 @@ header svg:hover {
   margin-top: 20px;
   margin-bottom: 0px;
 }
+
+/* ----------------- MIX E RADIO ----------------- */
 
 .mix-radio {
   display: flex;
@@ -152,6 +160,8 @@ header svg:hover {
   height: 720px;
 }
 
+/* ----------------- PLAYLIST ----------------- */
+
 .playlist {
   background-color: black;
   text-align: center;
@@ -174,6 +184,8 @@ header svg:hover {
   width: 180px;
   height: 180px;
 }
+
+/* ----------------- VIDEO E LIVESTREAM ----------------- */
 
 .video-live {
   display: flex;
@@ -198,6 +210,8 @@ header svg:hover {
   width: 430px;
   height: 380px;
 }
+
+/* ----------------- CREDITS ----------------- */
 
 .credits {
   background-image: radial-gradient(50% 50% at 35%, #3a1d5e, transparent);
@@ -225,6 +239,8 @@ header svg:hover {
   flex-direction: column;
 }
 
+/* ----------------- DOVUNQUE ----------------- */
+
 .dovunque {
   background-image: radial-gradient(50% 60% at 75%, #55004c, transparent);
   display: flex;
@@ -244,6 +260,8 @@ header svg:hover {
   justify-content: center;
   height: 460px;
 }
+
+/* ----------------- SCOPRI DI PIÙ ----------------- */
 
 .scopri {
   padding: 100px;
@@ -331,6 +349,8 @@ header svg:hover {
   margin-top: 70px;
 }
 
+/* ----------------- PROVA GRATUITA ----------------- */
+
 .prova-gratuita {
   display: flex;
   justify-content: space-evenly;
@@ -367,7 +387,7 @@ header svg:hover {
   height: 430px;
 }
 
-/* ------- FOOTER -------- */
+/* ----------------- FOOTER ----------------- */
 
 footer {
   background-color: #09090a;

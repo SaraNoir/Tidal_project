@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+header{
+    background-color:#094f4c ;
+}
+
 a {
     text-decoration: none;
 
@@ -19,6 +23,7 @@ body {
     background-color: black;
     height: max-content;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .topCard {
@@ -43,7 +48,7 @@ body {
 }
 
 .page1 {
-    height: 100%;
+    height: max-content;
     background-color: #094f4c;
 }
 
@@ -57,6 +62,9 @@ body {
     flex-direction: column;
 }
 
+.righCard{
+    background-image: url("../Tidal_project/img/playlists.0165253.png");
+}
 .page2 {
 
 
@@ -224,6 +232,9 @@ button {
      flex-direction: column;
      align-items: center;
      margin-top: 300px;
+     font-weight: bold;
+     text-align: center;
+     
  }
  .payForm>a{
      color: black;
@@ -233,7 +244,8 @@ button {
  .payForm>button{
      background-color: white;
      width: max-content;
-     padding: 10px 70px;
+     padding: 20px 100px;
      border-radius: 10px;
-
- }                                      
+     font-weight: bold;
+     
+}                                      

@@ -279,3 +279,40 @@ a:hover {
 .img-prova img{
     height: 430px;
 }
+
+
+/* ------- FOOTER -------- */
+
+footer {
+    background-color: #09090a;
+}
+
+footer p {
+    color: #9b9b9b;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer-credits {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px 150px 5px 150px;
+}
+
+svg {
+    fill: #9b9b9b;
+    width: 25px;
+    padding: 15px;
+}
+
+svg:hover {
+    fill: white;
+    transition: all 0.3s ease-in-out;
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid 0.5px #9b9b9b;
+    opacity: 0.5;
+}

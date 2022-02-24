@@ -10,9 +10,7 @@
     text-align: center;
 }
 
-header{
-    background-color:#094f4c ;
-}
+
 
 a {
     text-decoration: none;
@@ -21,9 +19,8 @@ a {
 
 body {
     background-color: black;
-    height: max-content;
     font-family: Arial, Helvetica, sans-serif;
-   
+
 }
 
 .topCard {
@@ -33,6 +30,7 @@ body {
     justify-content: space-between;
     padding: 50px 70px 0;
     align-items: center;
+    background-color: #094f4c;
 
 }
 
@@ -48,23 +46,25 @@ body {
 }
 
 .page1 {
-    height: max-content;
+    height: 100%;
     background-color: #094f4c;
+
 }
 
 .leftCard {
     border: 2px solid violet;
     width: 20rem;
-    height: 30rem;
+    height: 40rem;
     margin-left: 300px;
-    margin-top: 150px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
 }
 
-.righCard{
+.righCard {
     background-image: url("../Tidal_project/img/playlists.0165253.png");
 }
+
 .page2 {
 
 
@@ -194,21 +194,21 @@ button {
 
 .greenContainer {
     background-color: #33a39d;
-    
+
 
 }
 
 .orangeContainer {
     background-color: #fcae63;
-   
+
 
 }
 
 .greenList {
     background-color: #72c5c1;
-    
-   
-    
+
+
+
 }
 
 .orangeList {
@@ -216,36 +216,39 @@ button {
 
 }
 
-#link{
+#link {
     text-decoration: underline;
     text-decoration-color: white;
     margin-bottom: 500px;
 }
 
- .box{
+.box {
     width: max-content;
     padding: 40px;
     border-radius: 10px;
- }
- .payForm{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin-top: 300px;
-     font-weight: bold;
-     text-align: center;
-     
- }
- .payForm>a{
-     color: black;
-     text-decoration: underline;
-     margin-top: 25px;
- }
- .payForm>button{
-     background-color: white;
-     width: max-content;
-     padding: 20px 100px;
-     border-radius: 10px;
-     font-weight: bold;
-     
-}                                      
+}
+
+.payForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.payForm>a {
+    color: black;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.payForm>button {
+    background-color: white;
+    width: max-content;
+    padding: 20px 100px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}

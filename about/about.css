@@ -93,9 +93,9 @@ a {
 }
 
 .explore {
-    
+
     height: 45rem;
-  
+
     display: flex;
     background: rgb(55, 0, 68);
     background: radial-gradient(#1e0028, #000);
@@ -103,7 +103,7 @@ a {
 }
 
 .explore_card {
-   
+
     width: 50%;
     height: 50%;
     padding-left: 15rem;
@@ -111,7 +111,7 @@ a {
 }
 
 .explore_card-pic {
-    
+
     height: 50%;
     width: 50%;
     background-image: url("../common/imm.png");
@@ -192,7 +192,7 @@ a {
 }
 
 .patreon {
-   background-color: #000;
+    background-color: #000;
     height: 75rem;
 
 }
@@ -206,7 +206,7 @@ a {
 
 
 .patreon_card-pic1 {
-    
+
     height: 48rem;
     width: 37rem;
     background-image: url(../common/card1.jpg);
@@ -237,7 +237,7 @@ a {
 }
 
 .patreon_card-pic3 {
-   
+
     height: 48rem;
     width: 40rem;
     background-image: url("../common/card3.png");
@@ -255,7 +255,7 @@ a {
 }
 
 .tidalcard {
-    
+
     align-self: center;
     width: 36.5rem;
     height: 10rem;
@@ -291,7 +291,7 @@ a {
 }
 
 .footcard {
-  
+
     width: 36.5rem;
     height: 15rem;
     margin-bottom: 5rem;
@@ -299,7 +299,7 @@ a {
 }
 
 .originals {
-  
+
     width: 36.5rem;
     height: 15rem;
 }
@@ -312,7 +312,7 @@ a {
 }
 
 .dispositivi {
-    
+
     width: 36.5rem;
     height: 15rem;
     margin-bottom: 5rem;
@@ -329,6 +329,7 @@ a {
 
 
 .er-fonno {
+    color: white;
     border: 3px solid purple;
     height: 50rem;
     display: flex;
@@ -379,7 +380,7 @@ li {
     line-height: 3rem;
 }
 
-.cardForm{
+.cardForm {
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -387,10 +388,10 @@ li {
 
 .greenContainer {
     background-color: #33a39d;
-  
+
     width: 7rem;
-    
-   
+
+
 }
 
 .orangeContainer {
@@ -400,21 +401,23 @@ li {
 .greenList {
     background-color: #72c5c1;
     font-size: 2rem;
-    
-}
-.greenList>ul{
-    display: flex;
-    flex-direction: column;
-    gap:1.5rem;
-    padding:1rem 8rem;
+
 }
 
-.orangeList>ul{
+.greenList>ul {
     display: flex;
     flex-direction: column;
-    gap:1.5rem;
-    padding:1rem 8rem;
+    gap: 1.5rem;
+    padding: 1rem 8rem;
 }
+
+.orangeList>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 8rem;
+}
+
 .orangeList {
     background-color: #fac28c;
 }
@@ -454,22 +457,111 @@ li {
     border-radius: 10px;
     font-weight: bold;
 }
-.title{
+
+.title {
     color: white;
     font-size: 5rem;
     text-align: center;
 
 }
-.page6{
+
+.page6 {
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-.visualizza{
+
+.visualizza {
     text-align: center;
     height: 4rem;
     background-color: #000;
     color: white;
     font-size: 2rem;
 
+}
+
+footer {
+    background-color: #09090a;
+}
+
+footer p {
+    color: #9b9b9b;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer-credits {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px 150px 5px 150px;
+}
+
+.footer-credits svg {
+    fill: #9b9b9b;
+    width: 5rem;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+footer svg:hover {
+    fill: white;
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid 0.3px #9b9b9b;
+    opacity: 0.5;
+}
+
+.footer-copyright {
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    padding: 0px 150px 50px 150px;
+}
+
+.footer-copyright svg {
+    fill: #9b9b9b;
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-copyright-col1 {
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright-col2 {
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright-col2 ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.footer-copyright-col2 li {
+    display: inline;
+}
+
+.footer-copyright-col2 a {
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 20px;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-copyright-col2 a:hover {
+    color: #0ff;
+    text-transform: underline;
+}
+
+.footer-credits-col2 {
+    display: flex;
+    align-items: center;
 }

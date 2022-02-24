@@ -140,6 +140,9 @@ background-color: #000;
     border-radius: 3%;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+  flex-direction: column;
+  align-self: top;
 }
 
 .album-text>h1{
@@ -169,7 +172,7 @@ background-color: #000;
      font-size: 1.5rem;
      margin-top: 3.5rem;
      font-weight: bold;
-     
+ 
    
 
  }
@@ -191,9 +194,21 @@ background-color: #000;
    height:15rem;
  }
  .originalFont{
-     padding-top:3rem;
-     font-weight: bolder;
+     margin-top: 2.2rem;
      color: white;
      font-size: 2rem;
 
+ }
+ .dispositivi{
+    border: 1px solid rgb(255, 47, 203);
+    width:36.5rem;
+   height:15rem;
+   margin-bottom: 5rem;
+   
+ }
+ .fontSpace{
+     margin-top: 6rem;
+     color: white;
+     font-size: 1.5rem;
+     font-weight: bold;
  }

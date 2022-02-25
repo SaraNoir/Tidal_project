@@ -33,6 +33,9 @@ body {
     background-color: #094f4c;
 
 }
+.margin{
+    margin: 0;
+}
 
 .topCard__logo {
 
@@ -48,6 +51,7 @@ body {
 .page1 {
     height: 100%;
     background-color: #094f4c;
+    display: flex;
 
 }
 
@@ -56,13 +60,15 @@ body {
     width: max-content;
     height: 40rem;
     margin-left: 300px;
-    padding-top: 150px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 150px;
 }
+
 .leftCard>h2{
-    font-size: 7rem;
-    font-family: ;
+    font-size: 5rem;
+    
 }
 
 .trial{
@@ -84,10 +90,14 @@ margin-top: 15px;
     border-radius: 5px;
 }
 
-/* .righCard {
+.rightCard {
+    width: 20rem;
     background-image: url(img/playlists.0165253.png);
-} */
-
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: 200px;
+    
+} 
 .page2 {
 
 
@@ -366,18 +376,12 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 1.8rem;
+    font-size: 1rem;
+    color: grey;
     
 }
 
 
-.visualizza {
-    text-align: center;
-    height: 4rem;
-    background-color: #000;
-    
-    
-}
     
 footer ul li {
     line-height: 5rem;
@@ -423,4 +427,5 @@ ul {
 
 li>a{
     color: white;
+    
 }

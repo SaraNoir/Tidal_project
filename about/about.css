@@ -129,6 +129,7 @@ a {
 }
 
 .album-text {
+    background-color: #000;
     font-size: 13rem;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;

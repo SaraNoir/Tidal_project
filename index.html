@@ -7,6 +7,15 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
     <title>Homepage Tidal</title>
 </head>
 
@@ -41,7 +50,12 @@
                 <div class="buttonForm ">
                     <button class="fontColor">A proposito di TIDAL </button>
                     <button class="fontColor">Supporto</button>
-                    <button class="fontColor"><i data-v-725199d2="" class="tidal-icon"><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.99982 2.00876C8.11717 2.00876 6.34982 3.86753 6.34982 6.48376C6.34982 9.09999 8.11717 10.9588 9.99982 10.9588C11.8825 10.9588 13.6498 9.09999 13.6498 6.48376C13.6498 3.86753 11.8825 2.00876 9.99982 2.00876ZM4.57482 6.48376C4.57482 3.17674 6.87048 0.233765 9.99982 0.233765C13.1292 0.233765 15.4248 3.17674 15.4248 6.48376C15.4248 9.79079 13.1292 12.7338 9.99982 12.7338C6.87048 12.7338 4.57482 9.79079 4.57482 6.48376ZM4.86864 11.6946C5.18024 12.0729 5.12611 12.6323 4.74775 12.9439C3.4899 13.9797 2.62172 15.3686 2.33358 16.9173C2.24393 17.3992 1.78061 17.7172 1.29872 17.6275C0.81684 17.5379 0.498874 17.0746 0.588527 16.5927C0.960387 14.5939 2.07221 12.8478 3.61936 11.5737C3.99773 11.2621 4.55705 11.3162 4.86864 11.6946ZM16.4215 11.5737C16.0431 11.2621 15.4838 11.3162 15.1722 11.6946C14.8606 12.0729 14.9147 12.6323 15.2931 12.9439C16.5522 13.9807 17.4129 15.3641 17.6626 16.8976C17.7413 17.3814 18.1974 17.7097 18.6811 17.631C19.1649 17.5522 19.4933 17.0962 19.4145 16.6124C19.0866 14.5984 17.9674 12.8468 16.4215 11.5737Z" fill="currentColor"></path></svg></i> Login</button>
+                    <button class="fontColor"><i data-v-725199d2="" class="tidal-icon"><svg width="20" height="18"
+                                viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.99982 2.00876C8.11717 2.00876 6.34982 3.86753 6.34982 6.48376C6.34982 9.09999 8.11717 10.9588 9.99982 10.9588C11.8825 10.9588 13.6498 9.09999 13.6498 6.48376C13.6498 3.86753 11.8825 2.00876 9.99982 2.00876ZM4.57482 6.48376C4.57482 3.17674 6.87048 0.233765 9.99982 0.233765C13.1292 0.233765 15.4248 3.17674 15.4248 6.48376C15.4248 9.79079 13.1292 12.7338 9.99982 12.7338C6.87048 12.7338 4.57482 9.79079 4.57482 6.48376ZM4.86864 11.6946C5.18024 12.0729 5.12611 12.6323 4.74775 12.9439C3.4899 13.9797 2.62172 15.3686 2.33358 16.9173C2.24393 17.3992 1.78061 17.7172 1.29872 17.6275C0.81684 17.5379 0.498874 17.0746 0.588527 16.5927C0.960387 14.5939 2.07221 12.8478 3.61936 11.5737C3.99773 11.2621 4.55705 11.3162 4.86864 11.6946ZM16.4215 11.5737C16.0431 11.2621 15.4838 11.3162 15.1722 11.6946C14.8606 12.0729 14.9147 12.6323 15.2931 12.9439C16.5522 13.9807 17.4129 15.3641 17.6626 16.8976C17.7413 17.3814 18.1974 17.7097 18.6811 17.631C19.1649 17.5522 19.4933 17.0962 19.4145 16.6124C19.0866 14.5984 17.9674 12.8468 16.4215 11.5737Z"
+                                    fill="currentColor"></path>
+                            </svg></i> Login</button>
                     <button class="fontColor" id="free">Prova Gratuita</button>
                 </div>
             </nav>
@@ -52,11 +66,11 @@
         <section class="page1">
 
             <div class="leftCard fontColor">
-                <h2>FOR YOUR</h2>
-                <h2 class="margin">MUSIC</h2>
+                <h2 id="your">FOR YOUR</h2>
+                <h2 id="music" class="margin">MUSIC</h2>
                 <p>Un servizio di streaming dedicato a tutti gli appassionati di <br>
                     musica.</p>
-                <button class="trial"><a  href="">Prova gratuita</a></button>
+                <button class="trial"><a href="">Prova gratuita</a></button>
                 <button class="vodafone"><a class="fontColor" href="">Ottieni TIDAL con Vodafone</a></button>
             </div>
             <div class="rightCard">

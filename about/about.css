@@ -107,12 +107,12 @@ a {
     width: 50%;
     height: 50%;
     padding-left: 15rem;
-
+    font-size: 3rem;
 }
 
 .explore_card-pic {
 
-    height: 50%;
+    height: 100%;
     width: 50%;
     background-image: url("../common/imm.png");
     background-size: contain;

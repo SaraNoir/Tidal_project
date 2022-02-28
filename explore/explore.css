@@ -194,6 +194,7 @@ header svg:hover {
 
 .video-live {
   display: flex;
+  background-color: black; /* fallback per browser che non supportano il gradient */
   background-image: radial-gradient(
     50% 50% at 75%,
     rgba(208, 20, 31, 0.75),
@@ -219,6 +220,7 @@ header svg:hover {
 /* ----------------- CREDITS ----------------- */
 
 .credits {
+  background-color: black; /* fallback per browser che non supportano il gradient */
   background-image: radial-gradient(50% 50% at 35%, #3a1d5e, transparent);
   display: flex;
   justify-content: space-evenly;
@@ -257,6 +259,7 @@ header svg:hover {
 /* ----------------- DOVUNQUE ----------------- */
 
 .dovunque {
+  background-color: black; /* fallback per browser che non supportano il gradient */
   background-image: radial-gradient(50% 60% at 75%, #55004c, transparent);
   display: flex;
   justify-content: flex-end;

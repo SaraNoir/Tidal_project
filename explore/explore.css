@@ -146,7 +146,7 @@ header svg:hover {
   padding: 130px 240px;
 }
 
-.text-mix {
+.mix-radio-text {
   display: block;
 }
 
@@ -160,7 +160,7 @@ header svg:hover {
   border-bottom: solid 1px white;
 }
 
-.img-mix {
+.mix-radio-img {
   display: flex;
   height: 720px;
 }
@@ -173,7 +173,7 @@ header svg:hover {
   padding-bottom: 100px;
 }
 
-.text-playlist {
+.playlist-text {
   padding: 108px 0px;
 }
 
@@ -205,13 +205,13 @@ header svg:hover {
   justify-content: space-evenly;
 }
 
-.text-video {
+.video-live-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.img-video {
+.video-img {
   display: flex;
   width: 430px;
   height: 380px;
@@ -236,14 +236,14 @@ header svg:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.img-credits {
+.credits-text {
+  display: block;
+}
+
+.credits-img {
   display: flex;
   justify-content: center;
   height: 520px;
-}
-
-.text-credits {
-  display: block;
 }
 
 .scopri-link-credits a {
@@ -266,14 +266,14 @@ header svg:hover {
   padding: 60px 0px 140px 0px;
 }
 
-.text-dovunque {
+.dovunque-text {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding-right: 95px;
 }
 
-.img-dovunque {
+.dovunque-img {
   display: flex;
   justify-content: center;
   height: 460px;
@@ -300,6 +300,7 @@ header svg:hover {
   justify-content: space-between;
   margin-top: 30px;
   padding: 40px;
+  cursor: pointer;
 }
 
 .scopri-grid-items {

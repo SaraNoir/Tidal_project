@@ -60,7 +60,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  padding: 30px 50px;
+  padding: 15px 30px;
   margin: 0px;
 }
 
@@ -95,7 +95,7 @@ header svg:hover {
 }
 
 #lista-menu li a {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   padding: 10px 15px;
@@ -119,15 +119,15 @@ header svg:hover {
 
 #lista-menu button {
   border: none;
-  padding: 10px 15px;
+  padding: 11px 30px;
   color: black;
   background-color: white;
   border-radius: 5px;
   font-family: Montserrat, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 #lista-menu button:hover {
@@ -177,10 +177,11 @@ header svg:hover {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  background-color: black; /* fallback per browser che non supportano il gradient */
   background: radial-gradient(
       circle,
-      rgba(39, 46, 136, 0.5) 0%,
-      rgba(2, 2, 5, 0.5) 100%
+      rgba(39, 46, 136, 0.3) 0%,
+      rgba(2, 2, 5, 0.3) 70%
     ),
     url(https://tidal.com/_nuxt/img/mixes-carousel.908b22a.jpg) no-repeat center
       center / contain;
@@ -318,7 +319,7 @@ header svg:hover {
 
 .dovunque {
   background-color: black; /* fallback per browser che non supportano il gradient */
-  background-image: radial-gradient(50% 60% at 75%, #55004c, transparent);
+  background-image: radial-gradient(50% 50% at 75%, #55004c, transparent);
   display: flex;
   justify-content: flex-end;
   padding: 60px 0px 140px 0px;

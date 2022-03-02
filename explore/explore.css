@@ -397,18 +397,19 @@ header svg:hover {
 }
 
 .scopri-grid {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
   margin-top: 30px;
-  padding: 40px;
-  /* cursor: pointer; */
+  padding: 40px 60px;
 }
 
 .scopri-grid-items {
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
   border-radius: 15px;
   height: 530px;
-  width: 400px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -417,11 +418,14 @@ header svg:hover {
 }
 
 .scopri-grid-items p {
-  font-size: 18px;
+  font-size: 17px;
 }
 
-.scopri-grid-items a {
-  text-decoration: none;
+.scopri-grid-items span {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
 }
 
 .scopri-grid-items:hover {
@@ -429,6 +433,9 @@ header svg:hover {
 }
 
 .scopri-grid-items:nth-child(1) {
+  grid-column: 1;
+  position: relative;
+
   background-image: url(/img/devices-bg.3dd0017.png);
   background-color: #080808;
   background-repeat: no-repeat;
@@ -438,6 +445,9 @@ header svg:hover {
 }
 
 .scopri-grid-items:nth-child(2) {
+  grid-column: 2;
+  position: relative;
+
   background-image: url(/img/Screenshot-2022-02-23-at-12.33.55.png);
   background-color: #080808;
   background-repeat: no-repeat;
@@ -447,6 +457,9 @@ header svg:hover {
 }
 
 .scopri-grid-items:nth-child(3) {
+  grid-column: 3;
+  position: relative;
+
   background-image: url(/img/card-soundquality.c2cb0bf.jpg);
   background-color: #101011;
   background-repeat: no-repeat;
@@ -454,17 +467,19 @@ header svg:hover {
 }
 
 .grid-box {
+  position: relative;
   height: 300px;
 }
 
-.scopri-grid-items:nth-child(3) .grid-box {
-  height: 225px;
-}
-
 .grid-box h3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   font-size: 34px;
-  margin-top: 70px;
+  margin: 70px;
 }
 
 /* ----------------- PROVA GRATUITA ----------------- */

@@ -230,24 +230,66 @@ header svg:hover {
   background-color: black;
   text-align: center;
   padding-bottom: 100px;
-  overflow: hidden;
 }
 
 .playlist-text {
-  padding: 108px 0px;
+  padding: 100px 0px;
 }
 
 .playlist-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 10px;
+  padding: 0px 20px;
 }
 
 .playlist-row img {
   width: 180px;
   height: 180px;
 }
+
+.playlist-cover {
+  position: relative;
+}
+
+.playlist-hover-text {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: contain;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.playlist-cover:hover .playlist-hover-text {
+  display: flex;
+  opacity: 1;
+}
+
+/* .playlist1 {
+  background-image: url(/img/1.jpg);
+  background-size: 180px;
+  padding: 90px;
+}
+
+.playlist1:hover::after {
+  content: "Miscela della settimana";
+} */
 
 /* ----------------- VIDEO E LIVESTREAM ----------------- */
 

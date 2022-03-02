@@ -170,14 +170,15 @@ hr {
     width: max-content;
     
     background-color: #09090a;
-    margin: 20px 200px;
-    font-size: 30px;
+    
     display: flex;
+    gap: 3rem;
+    padding: 4rem;
+    align-items: center;
+    
 }
 
-.qualityImg{
 
-}
 
 .page4 {
 
@@ -197,13 +198,20 @@ hr {
 
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 
 }
 
-.qualityForm>img{
-width: 5rem;
+.qualityForm img{
+width:6rem;
 filter: brightness(50%);
+padding-left: 4rem;
 }
+
+ 
+
 
 .whatIf {
     background-color: #09090a;

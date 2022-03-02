@@ -359,7 +359,7 @@ header svg:hover {
   justify-content: space-between;
   margin-top: 30px;
   padding: 40px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .scopri-grid-items {

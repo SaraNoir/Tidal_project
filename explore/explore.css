@@ -179,13 +179,13 @@ header svg:hover {
   align-items: center;
   background-color: black; /* fallback per browser che non supportano il gradient */
   background: radial-gradient(
-      circle,
-      rgba(39, 46, 136, 0.3) 0%,
-      rgba(2, 2, 5, 0.3) 70%
+      100% 70%,
+      rgba(19, 33, 74, 0.6) 40%,
+      rgba(0, 0, 0, 0) 70%
     ),
-    url(https://tidal.com/_nuxt/img/mixes-carousel.908b22a.jpg) no-repeat center
-      center / contain;
-  padding: 130px 240px;
+    url(https://tidal.com/_nuxt/img/mixes-carousel.908b22a.jpg) no-repeat center /
+      contain;
+  padding: 100px 240px;
 }
 
 .scopri-link-mix a {

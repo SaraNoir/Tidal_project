@@ -230,6 +230,7 @@ header svg:hover {
   background-color: black;
   text-align: center;
   padding-bottom: 100px;
+  overflow: hidden;
 }
 
 .playlist-text {
@@ -238,8 +239,9 @@ header svg:hover {
 
 .playlist-row {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   column-gap: 10px;
+  width: 100%;
   padding: 0px 20px;
 }
 
@@ -280,16 +282,6 @@ header svg:hover {
   display: flex;
   opacity: 1;
 }
-
-/* .playlist1 {
-  background-image: url(/img/1.jpg);
-  background-size: 180px;
-  padding: 90px;
-}
-
-.playlist1:hover::after {
-  content: "Miscela della settimana";
-} */
 
 /* ----------------- VIDEO E LIVESTREAM ----------------- */
 
@@ -407,18 +399,22 @@ header svg:hover {
 .scopri-grid-items {
   display: flex;
   flex-direction: column;
-  padding: 25px;
   border-radius: 15px;
-  height: 530px;
+  height: 580px;
+  width: 440px;
   transition: all 0.3s ease-in-out;
 }
 
 .scopri-grid-items h2 {
   font-size: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .scopri-grid-items p {
   font-size: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .scopri-grid-items span {
@@ -426,6 +422,8 @@ header svg:hover {
   bottom: 0;
   margin-bottom: 30px;
   font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .scopri-grid-items:hover {
@@ -436,24 +434,14 @@ header svg:hover {
   grid-column: 1;
   position: relative;
 
-  background-image: url(/img/devices-bg.3dd0017.png);
-  background-color: #080808;
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-y: 20%;
-  background-position-x: right;
+  background: linear-gradient(180deg, #000 39%, #101012 64%);
 }
 
 .scopri-grid-items:nth-child(2) {
   grid-column: 2;
   position: relative;
 
-  background-image: url(/img/Screenshot-2022-02-23-at-12.33.55.png);
-  background-color: #080808;
-  background-repeat: no-repeat;
-  background-size: 55%;
-  background-position-y: 10%;
-  background-position-x: 50%;
+  background: linear-gradient(180deg, #101012 39%, #000 64%);
 }
 
 .scopri-grid-items:nth-child(3) {
@@ -463,17 +451,38 @@ header svg:hover {
   background-image: url(/img/card-soundquality.c2cb0bf.jpg);
   background-color: #101011;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  background-size: cover;
 }
 
-.grid-box {
+.grid-box-1 {
   position: relative;
-  height: 300px;
+  height: 330px;
+  background-image: url(/img/devices-bg.3dd0017.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
-.grid-box h3 {
+.grid-box-2 {
+  position: relative;
+  height: 330px;
+  background-image: url(/img/Screenshot-2022-02-23-at-12.33.55.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-y: 60%;
+  background-position-x: 50%;
+}
+
+.grid-box-3 {
+  position: relative;
+  height: 330px;
+}
+
+.grid-box-3 h3 {
   position: absolute;
-  top: 0;
+  top: 15%;
   bottom: 0;
   left: 0;
   right: 0;

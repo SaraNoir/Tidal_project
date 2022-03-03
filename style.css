@@ -87,7 +87,7 @@ color: #a9e8e8;
 color: #00cdcc;
 }
 .trial{
-    background-color: white;
+    background-color: #a9e8e8;
     width: max-content;
     padding: 20px 30px;
    
@@ -105,9 +105,24 @@ margin-top: 15px;
     border-radius: 5px;
 }
 
+.write{
+    position: relative;
+    bottom: 9rem;
+}
+
+.blueBox div{
+    position: relative;
+    top:13rem;
+}
+
+.blueBox img{
+    position: relative;
+    top: 3rem;
+}
+
 .rightCard {
     width: 20rem;
-    background-image: url(img/playlists.0165253.png);
+    background-image: url(img/left.svg);
     background-repeat: no-repeat;
     margin-left: 200px;
     margin-top: 200px;
@@ -219,6 +234,8 @@ padding-left: 4rem;
     margin-top: 200px;
 
 }
+
+
 
 .whatIf>p {
     padding: 200px;

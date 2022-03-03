@@ -174,14 +174,39 @@ a {
     padding: 30px;
 }
 
-.album_pic-pic {
-    height: 10%;
-    width: 10%;
+.album_pic-pic{
+    position: relative;
 }
+
+.album_pic-pic:hover .album-pic-hover{
+    display: flex;
+    
+
+}
+.album-pic-hover{
+    position: absolute;
+    display: none;
+    width: 160px;
+    height: 160px;
+    background-color:rgba(2, 5, 5, 0.7);
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Montserrat,sans-serif ;
+    font-weight: 600;
+
+}
+
 
 .album_pic {
     height: max-content;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
     gap: 1.5rem;
     background-color: #000;
 }

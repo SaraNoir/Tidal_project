@@ -17,7 +17,7 @@
 
 a {
     text-decoration: none;
-
+ color: white;
 }
 
 body {
@@ -96,7 +96,11 @@ body {
     background-color: #a9e8e8;
     width: max-content;
     padding: 20px 30px;
+    
 
+}
+.trial a{
+    color: black;
 }
 
 .vodafone {
@@ -263,7 +267,6 @@ hr {
 }
 
 .playlist {
-    border: 3px solid salmon;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
 
@@ -547,7 +550,6 @@ footer {
   }
   
   .footer-copyright-col2 a {
-    color: white;
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 20px;

@@ -19,8 +19,8 @@ a {
 
 body {
     background-color: black;
-    font-family:Montserrat, sans-serif ;
-    
+    font-family: Montserrat, sans-serif;
+
 
 }
 
@@ -34,7 +34,8 @@ body {
     background-color: #094f4c;
 
 }
-.margin{
+
+.margin {
     margin: 0;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .leftCard {
-    
+
     width: max-content;
     height: 40rem;
     margin-left: 300px;
@@ -65,57 +66,59 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 150px;
-    
-    
+
+
 }
 
-.leftCard>h2{
+.leftCard>h2 {
     font-size: 10rem;
     font-family: 'League Gothic', sans-serif;
     letter-spacing: 3PX;
-    line-height: 20px;  
+    line-height: 20px;
 }
 
-.leftCard>p{
+.leftCard>p {
     padding-top: 100px;
 }
 
-#your{
-color: #a9e8e8;
+#your {
+    color: #a9e8e8;
 }
-#music{
-color: #00cdcc;
+
+#music {
+    color: #00cdcc;
 }
-.trial{
+
+.trial {
     background-color: #a9e8e8;
     width: max-content;
     padding: 20px 30px;
-   
-}
-
-.vodafone{
-background-color:#d32c1f;
-padding: 20px 50px;
-margin-top: 15px;
 
 }
 
-.leftCard>button{
+.vodafone {
+    background-color: #d32c1f;
+    padding: 20px 50px;
+    margin-top: 15px;
+
+}
+
+.leftCard>button {
     width: max-content;
     border-radius: 5px;
 }
 
-.write{
+.write {
     position: relative;
     bottom: 9rem;
 }
 
-.blueBox div{
+.blueBox div {
     position: relative;
-    top:13rem;
+    top: 13rem;
 }
 
-.blueBox img{
+.blueBox img {
     position: relative;
     top: 3rem;
 }
@@ -126,8 +129,8 @@ margin-top: 15px;
     background-repeat: no-repeat;
     margin-left: 200px;
     margin-top: 200px;
-    
-} 
+
+}
 
 .page2 {
 
@@ -140,13 +143,13 @@ margin-top: 15px;
 
 }
 
-.page2 div{
+.page2 div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.page2 img{
+.page2 img {
     width: 14rem;
     margin-top: 70px;
 
@@ -183,14 +186,14 @@ hr {
 .qualityForm {
 
     width: max-content;
-    
+
     background-color: #09090a;
-    
+
     display: flex;
     gap: 3rem;
     padding: 4rem;
     align-items: center;
-    
+
 }
 
 
@@ -215,17 +218,17 @@ hr {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 
 }
 
-.qualityForm img{
-width:6rem;
-filter: brightness(50%);
-padding-left: 4rem;
+.qualityForm img {
+    width: 6rem;
+    filter: brightness(50%);
+    padding-left: 4rem;
 }
 
- 
+
 
 
 .whatIf {
@@ -254,6 +257,33 @@ padding-left: 4rem;
 
     width: 100%;
     height: 100%;
+}
+
+.playlist {
+    border: 3px solid salmon;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+
+}
+
+
+.album {
+    position: relative;
+}
+
+.album:hover {
+    position: relative;
+    display: none;
+    background-color: rgba(2, 5, 5, 0.7);
+}
+
+.album:hover .playlist {
+    display: flex;
+}
+
+.albumText {
+    position: absolute;
+    display: none;
 }
 
 button {
@@ -436,11 +466,11 @@ hr {
     justify-content: space-around;
     font-size: 1rem;
     color: grey;
-    
+
 }
 
 
-    
+
 footer ul li {
     line-height: 5rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -454,26 +484,26 @@ footer ul li {
 }
 
 .scopri-TIDAL {
-   
+
     height: 100%;
     width: 25%;
 
 }
 
 .il-mio-account {
-  
+
     height: 100%;
     width: 25%;
 }
 
 .azienda {
- 
+
     height: 100%;
     width: 25%;
 }
 
 .freetest {
-   
+
     height: 100%;
     width: 25%;
 }
@@ -483,8 +513,15 @@ ul {
 
 }
 
-li>a{
+li>a {
     color: white;
-    
+
+}
+/* 
+@keyframes animation-name {
+    0% {}
+
+    100% {}
 }
 
+animation-name: */

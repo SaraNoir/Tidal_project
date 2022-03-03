@@ -10,6 +10,9 @@
     text-align: center;
 }
 
+.brightness{
+    filter: brightness(50%);
+}
 
 
 a {
@@ -224,7 +227,6 @@ hr {
 
 .qualityForm img {
     width: 6rem;
-    filter: brightness(50%);
     padding-left: 4rem;
 }
 
@@ -244,6 +246,7 @@ hr {
     padding: 200px;
     font-size: 35px;
 }
+
 
 .page6 {
 
@@ -379,144 +382,187 @@ button {
 
 }
 
+/* ----------------- FOOTER ----------------- */
 
-footer p {
+footer {
+    background-color: #09090a;
+  }
+  
+  footer p {
     color: #9b9b9b;
-    font-size: 13px;
+    font-size: 1.3rem;
     line-height: 20px;
-}
-
-.footer-credits {
+  }
+  
+  .footer-grid {
+    display: flex;
+    padding: 100px 160px 20px 160px;
+    background-color: #09090a;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.8rem;
+  }
+  
+  .footer-grid h3 {
+    font-size: 1.8rem;
+    color: #9b9b9b;
+    font-weight: 200;
+  }
+  
+  .footer-grid a {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 40px;
+    border-bottom: solid 1px transparent;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .footer-grid a:hover {
+    border-bottom: solid 1px #0ff;
+    color: #0ff;
+  }
+  
+  .footer-grid ul {
+    padding: 0px;
+  }
+  
+  .footer-grid-col1 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .footer-grid-col2 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .footer-grid-col3 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .footer-grid-col4 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .footer-grid-col5 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    line-height: 3rem;
+  }
+  
+  .prova-button {
+    margin-top: 50px;
+  }
+  
+  .prova-button button {
+    border: solid 1px #0ff;
+    border-radius: 5px;
+    background-color: #09090a;
+    padding: 15px 0px;
+    width: 100%;
+    color: #0ff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .prova-button button:hover {
+    background-color: rgba(0, 255, 255, 0.25);
+  }
+  
+  /*  --- FOOTER CREDITS --- */
+  
+  .footer-credits {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 20px 150px 5px 150px;
-}
-
-.footer-credits svg {
+  }
+  
+  .footer-credits svg {
     fill: #9b9b9b;
     width: 25px;
     padding: 15px;
     transition: all 0.3s ease-in-out;
-}
-
-footer svg:hover {
+  }
+  
+  .footer-credits svg:hover {
     fill: white;
-}
-
-hr {
+  }
+  
+  .footer-credits-col2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  hr {
     margin-left: 150px;
     margin-right: 150px;
     border: solid 0.3px #9b9b9b;
     opacity: 0.5;
-}
-
-.footer-copyright {
+  }
+  
+  .footer-copyright {
     display: grid;
     grid-template-columns: 0.9fr 1fr;
     padding: 0px 150px 50px 150px;
-}
-
-.footer-copyright svg {
+  }
+  
+  .footer-copyright svg {
     fill: #9b9b9b;
     width: 25px;
     height: 25px;
     padding-right: 15px;
     transition: all 0.3s ease-in-out;
-}
-
-.footer-copyright-col1 {
+  }
+  
+  .footer-copyright-col1 {
     display: flex;
     align-items: center;
-}
-
-.footer-copyright-col2 {
+  }
+  
+  .footer-copyright-col2 {
     display: flex;
     align-items: center;
-}
-
-.footer-copyright-col2 ul {
+  }
+  
+  .footer-copyright-col2 ul {
     list-style-type: none;
     display: inline;
-}
-
-.footer-copyright-col2 li {
+  }
+  
+  .footer-copyright-col2 li {
     display: inline;
-}
-
-.footer-copyright-col2 a {
+  }
+  
+  .footer-copyright-col2 a {
     color: white;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 200;
     line-height: 20px;
     margin: 10px;
     transition: all 0.5s ease-in-out;
-}
-
-.footer-copyright-col2 a:hover {
+  }
+  
+  .footer-copyright-col2 a:hover {
     color: #0ff;
     text-transform: underline;
-}
+  }
+
+  
 
 
-.er-fonno {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 1rem;
-    color: grey;
-
-}
-
-
-
-footer ul li {
-    line-height: 5rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.inizi {
-
-    height: 100%;
-    width: 25%;
-
-}
-
-.scopri-TIDAL {
-
-    height: 100%;
-    width: 25%;
-
-}
-
-.il-mio-account {
-
-    height: 100%;
-    width: 25%;
-}
-
-.azienda {
-
-    height: 100%;
-    width: 25%;
-}
-
-.freetest {
-
-    height: 100%;
-    width: 25%;
-}
-
-ul {
-    list-style-type: none;
-
-}
-
-li>a {
-    color: white;
-
-}
 /* 
 @keyframes animation-name {
     0% {}

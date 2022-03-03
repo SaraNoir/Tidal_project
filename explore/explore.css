@@ -4,6 +4,10 @@
   color: white;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: Montserrat, sans-serif;
   background-color: black;
@@ -12,18 +16,18 @@ body {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 5.4rem;
   margin: 0px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 300;
   line-height: 1.5;
 }
 
 a {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 600;
   text-decoration: none;
   margin-top: 10px;
@@ -95,7 +99,7 @@ header svg:hover {
 }
 
 #lista-menu li a {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   text-decoration: none;
   padding: 10px 15px;
@@ -124,7 +128,7 @@ header svg:hover {
   background-color: white;
   border-radius: 5px;
   font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease-in-out 0s;
@@ -144,7 +148,7 @@ header svg:hover {
 }
 
 .explore h1 {
-  font-size: 22px;
+  font-size: 2.2rem;
 
   animation-name: fadeIn;
   animation-duration: 1s;
@@ -155,7 +159,7 @@ header svg:hover {
 
 .explore h2 {
   text-align: center;
-  font-size: 100px;
+  font-size: 10rem;
   margin-top: 20px;
   margin-bottom: 0px;
 
@@ -167,7 +171,7 @@ header svg:hover {
 }
 
 .explore h2::first-letter {
-  font-size: 120px;
+  font-size: 12rem;
 }
 
 /* ----------------- MIX E RADIO ----------------- */
@@ -271,7 +275,7 @@ header svg:hover {
   background-size: contain;
   color: white;
   font-family: Montserrat, sans-serif;
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 600;
   text-align: center;
   cursor: pointer;
@@ -382,7 +386,7 @@ header svg:hover {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 130px;
+  font-size: 13rem;
   color: black;
   -webkit-text-stroke: 2px rgba(128, 128, 128, 0.3);
   letter-spacing: 2px;
@@ -406,13 +410,13 @@ header svg:hover {
 }
 
 .scopri-grid-items h2 {
-  font-size: 22px;
+  font-size: 2.2rem;
   padding-left: 25px;
   padding-right: 25px;
 }
 
 .scopri-grid-items p {
-  font-size: 17px;
+  font-size: 1.7rem;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -421,7 +425,7 @@ header svg:hover {
   position: absolute;
   bottom: 0;
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -487,7 +491,7 @@ header svg:hover {
   left: 0;
   right: 0;
   text-align: center;
-  font-size: 34px;
+  font-size: 3.4rem;
   margin: 70px;
 }
 
@@ -516,7 +520,7 @@ header svg:hover {
   margin-top: 25px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -537,7 +541,7 @@ footer {
 
 footer p {
   color: #9b9b9b;
-  font-size: 13px;
+  font-size: 1.3rem;
   line-height: 20px;
 }
 
@@ -551,13 +555,13 @@ footer p {
 }
 
 .footer-grid h3 {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #9b9b9b;
   font-weight: 200;
 }
 
 .footer-grid a {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 200;
   line-height: 40px;
   border-bottom: solid 1px transparent;
@@ -619,7 +623,7 @@ li {
   width: 100%;
   color: #0ff;
   font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -695,7 +699,7 @@ hr {
 
 .footer-copyright-col2 a {
   color: white;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 200;
   line-height: 20px;
   margin: 10px;

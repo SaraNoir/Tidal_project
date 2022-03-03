@@ -254,8 +254,8 @@ a {
 
     height: 48rem;
     width: 37rem;
-    background-image: url(../common/card1.jpg);
-    background-size: contain;
+    background: linear-gradient(180deg,rgba(42, 35, 28, 0.5 )40%,rgba(42, 35, 28, 0.5)84%),  url("../common/card1.jpg");
+    background-size: cover;
     border-radius: 3%;
     align-self: top;
     background-repeat: no-repeat;
@@ -263,6 +263,7 @@ a {
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
+    
 
 
 }
@@ -271,8 +272,8 @@ a {
 
     height: 48rem;
     width: 37rem;
-    background-image: url("../common/card2.jpg");
-    background-size: contain;
+    background: linear-gradient(180deg,rgba(128, 128, 128, 0.3) 40%,rgba(40, 61, 75, 1)84%),  url("../common/card4.jpg");
+    background-size: cover;
     border-radius: 3%;
     background-repeat: no-repeat;
     background-position: center;
@@ -285,8 +286,8 @@ a {
 
     height: 48rem;
     width: 40rem;
-    background-image: url("../common/card3.png");
-    background-size: contain;
+    background: linear-gradient(180deg,rgba(128, 128, 128, 0.3) 40%,rgb(35, 39, 41,1)84%),  url("../common/card2.jpg");
+    background-size: cover;
     border-radius: 3%;
     background-repeat: no-repeat;
     background-position: center;

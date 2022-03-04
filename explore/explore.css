@@ -4,13 +4,10 @@
   color: white;
 }
 
-<<<<<<< HEAD
 html {
   font-size: 10px;
 }
 
-=======
->>>>>>> develop
 body {
   font-family: Montserrat, sans-serif;
   background-color: black;
@@ -19,36 +16,23 @@ body {
 }
 
 h1 {
-<<<<<<< HEAD
   font-size: 5.4rem;
-=======
-  font-size: 54px;
->>>>>>> develop
   margin: 0px;
 }
 
 p {
-<<<<<<< HEAD
   font-size: 2.2rem;
-=======
-  font-size: 22px;
->>>>>>> develop
   font-weight: 300;
   line-height: 1.5;
 }
 
 a {
-<<<<<<< HEAD
   font-size: 1.8rem;
-=======
-  font-size: 18px;
->>>>>>> develop
   font-weight: 600;
   text-decoration: none;
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
 /* ----------------- KEYFRAMES - ANIMATIONS ----------------- */
 
 @keyframes fadeIn {
@@ -71,10 +55,6 @@ a {
     opacity: 1;
     transform: translateY(0px);
   }
-=======
-a:hover {
-  text-decoration: underline;
->>>>>>> develop
 }
 
 /* ----------------- HEADER ----------------- */
@@ -84,11 +64,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   background-color: black;
-<<<<<<< HEAD
   padding: 15px 30px;
-=======
-  padding: 30px 50px;
->>>>>>> develop
   margin: 0px;
 }
 
@@ -123,11 +99,7 @@ header svg:hover {
 }
 
 #lista-menu li a {
-<<<<<<< HEAD
   font-size: 1.6rem;
-=======
-  font-size: 18px;
->>>>>>> develop
   font-weight: 500;
   text-decoration: none;
   padding: 10px 15px;
@@ -151,26 +123,15 @@ header svg:hover {
 
 #lista-menu button {
   border: none;
-<<<<<<< HEAD
   padding: 11px 30px;
-=======
-  padding: 10px 15px;
->>>>>>> develop
   color: black;
   background-color: white;
   border-radius: 5px;
   font-family: Montserrat, sans-serif;
-<<<<<<< HEAD
   font-size: 1.6rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease-in-out 0s;
-=======
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
->>>>>>> develop
 }
 
 #lista-menu button:hover {
@@ -187,7 +148,6 @@ header svg:hover {
 }
 
 .explore h1 {
-<<<<<<< HEAD
   font-size: 2.2rem;
 
   animation-name: fadeIn;
@@ -195,14 +155,10 @@ header svg:hover {
 
   animation-name: fadeInFromBottom;
   animation-duration: 1s;
-=======
-  font-size: 18px;
->>>>>>> develop
 }
 
 .explore h2 {
   text-align: center;
-<<<<<<< HEAD
   font-size: 10rem;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -216,18 +172,12 @@ header svg:hover {
 
 .explore h2::first-letter {
   font-size: 12rem;
-=======
-  font-size: 90px;
-  margin-top: 20px;
-  margin-bottom: 0px;
->>>>>>> develop
 }
 
 /* ----------------- MIX E RADIO ----------------- */
 
 .mix-radio {
   display: flex;
-<<<<<<< HEAD
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
@@ -274,34 +224,11 @@ header svg:hover {
   animation-name: fadeInFromBottom;
   animation-duration: 1s;
   animation-delay: 0.5s;
-=======
-  background: radial-gradient(
-      circle,
-      rgba(39, 46, 136, 0.5) 0%,
-      rgba(2, 2, 5, 0.5) 100%
-    ),
-    url(https://tidal.com/_nuxt/img/mixes-carousel.908b22a.jpg) no-repeat center
-      center / contain;
-  justify-content: space-evenly;
-  padding: 130px 240px;
-}
-
-.text-mix {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.img-mix {
-  display: flex;
-  height: 720px;
->>>>>>> develop
 }
 
 /* ----------------- PLAYLIST ----------------- */
 
 .playlist {
-<<<<<<< HEAD
   display: flex;
   flex-flow: column wrap;
   background-color: black;
@@ -320,23 +247,6 @@ header svg:hover {
   column-gap: 10px;
   width: 100%;
   padding: 0px 20px;
-=======
-  background-color: black;
-  text-align: center;
-  padding-bottom: 100px;
-}
-
-.text-playlist {
-  padding: 108px 0px;
-}
-
-.playlist-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  overflow: hidden;
->>>>>>> develop
 }
 
 .playlist-row img {
@@ -344,7 +254,6 @@ header svg:hover {
   height: 180px;
 }
 
-<<<<<<< HEAD
 .playlist-cover {
   position: relative;
 }
@@ -378,16 +287,11 @@ header svg:hover {
   opacity: 1;
 }
 
-=======
->>>>>>> develop
 /* ----------------- VIDEO E LIVESTREAM ----------------- */
 
 .video-live {
   display: flex;
-<<<<<<< HEAD
   background-color: black; /* fallback per browser che non supportano il gradient */
-=======
->>>>>>> develop
   background-image: radial-gradient(
     50% 50% at 75%,
     rgba(208, 20, 31, 0.75),
@@ -398,21 +302,13 @@ header svg:hover {
   justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
 .video-live-text {
-=======
-.text-video {
->>>>>>> develop
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .video-img {
-=======
-.img-video {
->>>>>>> develop
   display: flex;
   width: 430px;
   height: 380px;
@@ -421,17 +317,11 @@ header svg:hover {
 /* ----------------- CREDITS ----------------- */
 
 .credits {
-<<<<<<< HEAD
   background-color: black; /* fallback per browser che non supportano il gradient */
   background-image: radial-gradient(50% 50% at 35%, #3a1d5e, transparent);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-=======
-  background-image: radial-gradient(50% 50% at 35%, #3a1d5e, transparent);
-  display: flex;
-  justify-content: space-evenly;
->>>>>>> develop
   padding-top: 40px;
   padding-bottom: 135px;
   padding-left: 190px;
@@ -440,7 +330,6 @@ header svg:hover {
 
 .credits a {
   color: #b29eec;
-<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
 }
 
@@ -449,17 +338,11 @@ header svg:hover {
 }
 
 .credits-img {
-=======
-}
-
-.img-credits {
->>>>>>> develop
   display: flex;
   justify-content: center;
   height: 520px;
 }
 
-<<<<<<< HEAD
 .scopri-link-credits a {
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
@@ -468,44 +351,26 @@ header svg:hover {
 
 .scopri-link-credits a:hover {
   border-bottom: solid 1px #b29eec;
-=======
-.text-credits {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
->>>>>>> develop
 }
 
 /* ----------------- DOVUNQUE ----------------- */
 
 .dovunque {
-<<<<<<< HEAD
   background-color: black; /* fallback per browser che non supportano il gradient */
   background-image: radial-gradient(50% 50% at 75%, #55004c, transparent);
-=======
-  background-image: radial-gradient(50% 60% at 75%, #55004c, transparent);
->>>>>>> develop
   display: flex;
   justify-content: flex-end;
   padding: 60px 0px 140px 0px;
 }
 
-<<<<<<< HEAD
 .dovunque-text {
-=======
-.text-dovunque {
->>>>>>> develop
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding-right: 95px;
 }
 
-<<<<<<< HEAD
 .dovunque-img {
-=======
-.img-dovunque {
->>>>>>> develop
   display: flex;
   justify-content: center;
   height: 460px;
@@ -521,18 +386,13 @@ header svg:hover {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
-<<<<<<< HEAD
   font-size: 13rem;
-=======
-  font-size: 130px;
->>>>>>> develop
   color: black;
   -webkit-text-stroke: 2px rgba(128, 128, 128, 0.3);
   letter-spacing: 2px;
 }
 
 .scopri-grid {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
@@ -546,24 +406,10 @@ header svg:hover {
   border-radius: 15px;
   height: 580px;
   width: 440px;
-=======
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  padding: 40px;
-}
-
-.scopri-grid-items {
-  padding: 40px;
-  border-radius: 15px;
-  height: 530px;
-  width: 400px;
->>>>>>> develop
   transition: all 0.3s ease-in-out;
 }
 
 .scopri-grid-items h2 {
-<<<<<<< HEAD
   font-size: 2.2rem;
   padding-left: 25px;
   padding-right: 25px;
@@ -582,17 +428,6 @@ header svg:hover {
   font-size: 1.6rem;
   padding-left: 25px;
   padding-right: 25px;
-=======
-  font-size: 22px;
-}
-
-.scopri-grid-items p {
-  font-size: 18px;
-}
-
-.scopri-grid-items a {
-  text-decoration: none;
->>>>>>> develop
 }
 
 .scopri-grid-items:hover {
@@ -600,7 +435,6 @@ header svg:hover {
 }
 
 .scopri-grid-items:nth-child(1) {
-<<<<<<< HEAD
   grid-column: 1;
   position: relative;
 
@@ -659,44 +493,6 @@ header svg:hover {
   text-align: center;
   font-size: 3.4rem;
   margin: 70px;
-=======
-  background-image: url(/img/devices-bg.3dd0017.png);
-  background-color: #080808;
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-y: 20%;
-  background-position-x: right;
-}
-
-.scopri-grid-items:nth-child(2) {
-  background-image: url(/img/Screenshot-2022-02-23-at-12.33.55.png);
-  background-color: #080808;
-  background-repeat: no-repeat;
-  background-size: 55%;
-  background-position-y: 10%;
-  background-position-x: 50%;
-}
-
-.scopri-grid-items:nth-child(3) {
-  background-image: url(/img/card-soundquality.c2cb0bf.jpg);
-  background-color: #101011;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-.grid-box {
-  height: 300px;
-}
-
-.scopri-grid-items:nth-child(3) .grid-box {
-  height: 225px;
-}
-
-.grid-box h3 {
-  text-align: center;
-  font-size: 34px;
-  margin-top: 70px;
->>>>>>> develop
 }
 
 /* ----------------- PROVA GRATUITA ----------------- */
@@ -724,11 +520,7 @@ header svg:hover {
   margin-top: 25px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-<<<<<<< HEAD
   font-size: 1.6rem;
-=======
-  font-size: 16px;
->>>>>>> develop
   transition: all 0.2s ease-in-out;
 }
 
@@ -749,11 +541,7 @@ footer {
 
 footer p {
   color: #9b9b9b;
-<<<<<<< HEAD
   font-size: 1.3rem;
-=======
-  font-size: 13px;
->>>>>>> develop
   line-height: 20px;
 }
 
@@ -767,17 +555,12 @@ footer p {
 }
 
 .footer-grid h3 {
-<<<<<<< HEAD
   font-size: 1.8rem;
-=======
-  font-size: 18px;
->>>>>>> develop
   color: #9b9b9b;
   font-weight: 200;
 }
 
 .footer-grid a {
-<<<<<<< HEAD
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 40px;
@@ -788,16 +571,6 @@ footer p {
 
 .footer-grid a:hover {
   border-bottom: solid 1px #0ff;
-=======
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 40px;
-  transition: all 0.5s ease-in-out;
-}
-
-.footer-grid a:hover {
-  text-decoration: underline;
->>>>>>> develop
   color: #0ff;
 }
 
@@ -850,11 +623,7 @@ li {
   width: 100%;
   color: #0ff;
   font-family: Montserrat, sans-serif;
-<<<<<<< HEAD
   font-size: 1.6rem;
-=======
-  font-size: 16px;
->>>>>>> develop
   font-weight: 600;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -864,11 +633,7 @@ li {
   background-color: rgba(0, 255, 255, 0.25);
 }
 
-<<<<<<< HEAD
 /*  --- FOOTER CREDITS --- */
-=======
-/*  */
->>>>>>> develop
 
 .footer-credits {
   display: grid;
@@ -934,11 +699,7 @@ hr {
 
 .footer-copyright-col2 a {
   color: white;
-<<<<<<< HEAD
   font-size: 1.3rem;
-=======
-  font-size: 13px;
->>>>>>> develop
   font-weight: 200;
   line-height: 20px;
   margin: 10px;

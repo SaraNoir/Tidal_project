@@ -270,6 +270,7 @@ header svg:hover {
   bottom: 0;
   top: 0;
   right: 0;
+  left: 0;
 
   background-color: rgba(0, 0, 0, 0.7);
   background-size: contain;

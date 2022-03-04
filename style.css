@@ -10,19 +10,21 @@
     text-align: center;
 }
 
-.brightness{
+.brightness {
     filter: brightness(50%);
 }
 
 
 a {
     text-decoration: none;
- color: white;
+    color: white;
 }
+
+
 
 body {
     background-color: black;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 
 }
@@ -51,6 +53,7 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+
 }
 
 .page1 {
@@ -96,10 +99,11 @@ body {
     background-color: #a9e8e8;
     width: max-content;
     padding: 20px 30px;
-    
+
 
 }
-.trial a{
+
+.trial a {
     color: black;
 }
 
@@ -128,6 +132,7 @@ body {
 .blueBox img {
     position: relative;
     top: 3rem;
+
 }
 
 .rightCard {
@@ -156,10 +161,18 @@ body {
     align-items: center;
 }
 
+
+
 .page2 img {
     width: 14rem;
     margin-top: 70px;
+    opacity: 0.7;
 
+
+}
+
+.page2 p {
+    line-height: 1.5rem;
 }
 
 .page3 {
@@ -243,16 +256,17 @@ hr {
     padding-bottom: 6rem;
 
 }
-.whatIf img{
+
+.whatIf img {
     width: 10rem;
-    gap: 3rem;
+    margin-inline: 3rem;
 }
 
-.whatIf img:hover{
+.whatIf img:hover {
     filter: brightness(100%);
 }
 
-#pc{
+#pc {
     width: 4rem;
 }
 
@@ -271,11 +285,11 @@ hr {
 
 }
 
-.soundtrack{
+.soundtrack {
     margin-bottom: 4rem;
     font-size: 3rem;
 }
-   
+
 
 .page7 {
 
@@ -287,27 +301,46 @@ hr {
 .playlist {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+    column-gap: 0.2rem;
 
 }
 
 
 .album {
     position: relative;
+   
 }
 
-.album:hover {
-    position: relative;
-    display: none;
-    background-color: rgba(2, 5, 5, 0.7);
+.album img{
+    width: 220px;
 }
 
-.album:hover .playlist {
+.album:hover .albumText {
     display: flex;
+    opacity: 1;
+   
+
 }
 
 .albumText {
-    position: absolute;
     display: none;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 220px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: contain;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
 }
 
 button {
@@ -319,28 +352,56 @@ button {
     color: black;
     background-color: white;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+
 }
 
 .sizeCard {
     width: 22rem;
     height: 40rem;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
     margin-top: 150px;
 }
 
 
 .redBox {
+    background-color: #800d20cc;
+    transition: all 0.3s ease-in-out;
+}
+
+.redBox:hover {
+    filter: brightness(150%);
+    filter: drop-shadow(0 0 50px #800d2073);
     background-color: #800d21;
 }
 
 .purpleBox {
-    background-color: #5b0a62;
+    
+    background: linear-gradient(180deg, rgba(138, 7, 70, 0.9) 0%, rgba(194, 12, 83, 0.9) 36%, rgba(110, 11, 96, 0.9) 66%, rgba(87, 11, 100, 0.9) 100%);
+    transition: all 0.3s ease-in-out;
 }
 
+.purpleBox:hover {
+    filter: brightness(150%);
+    filter: drop-shadow(0 0 50px rgba(138, 7, 70, 0.5));
+    
+    background: linear-gradient(180deg, rgb(138, 7, 70) 0%, rgba(194, 12, 83, 1) 36%, rgba(110, 11, 96, 1) 66%, rgba(87, 11, 100, 1) 100%);
+}
+
+
 .blueBox {
+    background-color: #201780ca;
+    transition: all 0.3s ease-in-out;
+}
+
+.blueBox:hover {
+    filter: brightness(150%);
+    filter: drop-shadow(0 0 50px #20178077);
     background-color: #201780;
 }
+
 
 .greenContainer {
     background-color: #33a39d;
@@ -369,9 +430,9 @@ button {
 #link {
     text-decoration: underline;
     text-decoration-color: white;
-    margin-bottom:10rem;
+    margin-bottom: 10rem;
     margin-top: 3rem;
-    
+
 }
 
 .box {
@@ -405,18 +466,19 @@ button {
 
 }
 
-.faq{
+.faq {
     background-color: #141417;
 
-padding:6rem 0;
-}
-.faq h1{
-font-size: 3.5rem;
-margin-bottom: 5rem;
+    padding: 6rem 0;
 }
 
-.faq p{
-line-height: 2rem;
+.faq h1 {
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+}
+
+.faq p {
+    line-height: 2rem;
 }
 
 
@@ -424,179 +486,194 @@ line-height: 2rem;
 
 footer {
     background-color: #09090a;
-  }
-  
-  footer p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+footer p {
     color: #9b9b9b;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 20px;
-  }
-  
-  .footer-grid {
+    font-weight: 900;
+}
+
+.footer-grid {
     display: flex;
     padding: 100px 160px 20px 160px;
     background-color: #09090a;
     flex-direction: row;
     justify-content: space-around;
     font-size: 1.8rem;
-  }
-  
-  .footer-grid h3 {
-    font-size: 1.8rem;
+}
+
+.footer-grid h3 {
+    font-size: 1.2rem;
     color: #9b9b9b;
     font-weight: 200;
-  }
-  
-  .footer-grid a {
-    font-size: 1.6rem;
+}
+
+.footer-grid a {
+    font-size: 1rem;
     font-weight: 200;
     line-height: 40px;
     border-bottom: solid 1px transparent;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-  }
-  
-  .footer-grid a:hover {
+}
+
+.footer-grid a:hover {
     border-bottom: solid 1px #0ff;
     color: #0ff;
-  }
-  
-  .footer-grid ul {
+}
+
+.footer-grid ul {
     padding: 0px;
-  }
-  
-  .footer-grid-col1 {
+}
+
+.footer-grid-col1 {
     height: 100%;
     width: 25%;
-  }
-  
-  .footer-grid-col2 {
+}
+
+.footer-grid-col2 {
     height: 100%;
     width: 25%;
-  }
-  
-  .footer-grid-col3 {
+}
+
+.footer-grid-col3 {
     height: 100%;
     width: 25%;
-  }
-  
-  .footer-grid-col4 {
+}
+
+.footer-grid-col4 {
     height: 100%;
     width: 25%;
-  }
-  
-  .footer-grid-col5 {
+}
+
+.footer-grid-col5 {
     height: 100%;
     width: 25%;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: none;
-  }
-  
-  li {
+}
+
+li {
     line-height: 3rem;
-  }
-  
-  .prova-button {
+}
+
+.prova-button {
     margin-top: 50px;
-  }
-  
-  .prova-button button {
+}
+
+.prova-button button {
     border: solid 1px #0ff;
     border-radius: 5px;
     background-color: #09090a;
     padding: 15px 0px;
     width: 100%;
     color: #0ff;
-    font-family: Montserrat, sans-serif;
-    font-size: 1.6rem;
+
+    font-size: 1rem;
     font-weight: 600;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-  }
-  
-  .prova-button button:hover {
+}
+
+.prova-button button:hover {
     background-color: rgba(0, 255, 255, 0.25);
-  }
-  
-  
-  .footer-credits {
+}
+
+
+.footer-credits {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 20px 150px 5px 150px;
-  }
-  
-  .footer-credits svg {
+    padding: 2rem 12rem 0.5rem 16rem;
+}
+
+.footer-credits svg {
     fill: #9b9b9b;
     width: 25px;
     padding: 15px;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .footer-credits svg:hover {
+}
+
+.footer-credits svg:hover {
     fill: white;
-  }
-  
-  .footer-credits-col2 {
+}
+
+.footer-credits p {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+
+}
+
+.footer-credits-col2 {
     display: flex;
     align-items: center;
-  }
-  
-  hr {
+}
+
+
+hr {
     margin-left: 150px;
     margin-right: 150px;
     border: solid 0.3px #9b9b9b;
     opacity: 0.5;
-  }
-  
-  .footer-copyright {
-    display: grid;
-    grid-template-columns: 0.9fr 1fr;
-    padding: 0px 150px 50px 150px;
-  }
-  
-  .footer-copyright svg {
+}
+
+.footer-copyright {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+
+}
+
+.footer-copyright p {
+    font-size: 0.9rem;
+}
+
+.footer-copyright svg {
     fill: #9b9b9b;
     width: 25px;
     height: 25px;
     padding-right: 15px;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .footer-copyright-col1 {
+}
+
+.footer-copyright-col1 {
     display: flex;
     align-items: center;
-  }
-  
-  .footer-copyright-col2 {
+}
+
+.footer-copyright-col2 {
     display: flex;
     align-items: center;
-  }
-  
-  .footer-copyright-col2 ul {
+}
+
+.footer-copyright-col2 ul {
     list-style-type: none;
     display: inline;
-  }
-  
-  .footer-copyright-col2 li {
+}
+
+.footer-copyright-col2 li {
     display: inline;
-  }
-  
-  .footer-copyright-col2 a {
-    font-size: 1.3rem;
+}
+
+.footer-copyright-col2 a {
+    font-size: 0.9rem;
     font-weight: 200;
     line-height: 20px;
     margin: 10px;
     transition: all 0.5s ease-in-out;
-  }
-  
-  .footer-copyright-col2 a:hover {
+}
+
+.footer-copyright-col2 a:hover {
     color: #0ff;
     text-transform: underline;
-  }
+}
 
-  
+
 
 
 /* 

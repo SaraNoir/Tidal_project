@@ -634,11 +634,11 @@ li {
   line-height: 3rem;
 }
 
-.prova-button {
+.footer-prova-button {
   margin-top: 50px;
 }
 
-.prova-button button {
+.footer-prova-button button {
   border: solid 1px #0ff;
   border-radius: 5px;
   background-color: #09090a;
@@ -652,8 +652,13 @@ li {
   cursor: pointer;
 }
 
-.prova-button button:hover {
+.footer-prova-button button:hover {
   background-color: rgba(0, 255, 255, 0.25);
+}
+
+.footer-prova-button a,
+.footer-prova-button a:hover {
+  border: none;
 }
 
 /*  --- FOOTER CREDITS --- */

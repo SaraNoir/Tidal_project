@@ -1,0 +1,45 @@
+/* GLOBAL RESETS /
+/ Switches globally the box-sizing to the more intuitive border-box,
+   which includes border and padding in width property */
+  /* * {box-sizing: border-box;}
+
+   /* Removes any browser-opinionated spaces */
+   *,
+  /* *::before,
+   ::after {
+       margin: 0;
+       padding: 0;
+   }
+   /* Switches font-size to 10px (implicit value) while allowing zooming via browser*/
+ /*  html {
+       font-size: 62.5%;
+       font-family: sans-serif;
+   }
+
+   /* Uses a more accessible and spacious line-height, refer to theme.css for the value */
+  /* body {line-height: 1.4;}
+
+   /* Allows percentage-based heights */
+ /*  html, body {height: 100%;}
+
+   /* Removes the unwanted ability to overflow content */
+  /* img, picture, video, canvas, svg, iframe, object {
+       display: block;
+       max-width: 100%;
+   }
+
+   /*  Removes the standard purple text on visited links and forces the underline to be
+       of the same color of the text. The underline is by default only visible on :hover. */
+   /*a, a:visited {
+       color: inherit;
+       text-decoration: none;
+   }
+   a:hover {
+       text-decoration: underline;
+       text-decoration-color: inherit;
+   }
+
+   /* Restores full opacity for the input placeholder */
+/*   input::placeholder {
+       opacity: 1;
+   } 

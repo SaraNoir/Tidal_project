@@ -445,19 +445,33 @@ li {
 
 .greenContainer {
     background-color: #33a39d;
-
-    width: 7rem;
-
-
+    padding: 3rem;
+    height: 90rem;
 }
 
+.greenContainer:hover{
+    background-color:#20a39d;
+
+}
 .orangeContainer {
     background-color: #fcae63;
+    padding: 3rem;
+    height: 90rem;
+}
+
+.orangeContainer:hover{
+ background-color:  #fcb878;;
 }
 
 .greenList {
     background-color: #72c5c1;
     font-size: 2rem;
+
+}
+.greenList svg, .orangeList svg{
+    width: 1rem;
+    display: inline;
+    margin-right: 1rem;
 
 }
 
@@ -487,7 +501,6 @@ li {
 
 .box {
     width: max-content;
-    padding: 40px;
     border-radius: 10px;
     font-size: 2rem;
 }
@@ -496,7 +509,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 20rem;
     font-weight: bold;
     text-align: center;
 }

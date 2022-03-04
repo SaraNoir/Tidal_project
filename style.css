@@ -29,6 +29,8 @@ body {
 
 }
 
+/*---------------------- Header ----------------------*/
+
 .topCard {
     height: max-content;
 
@@ -56,6 +58,8 @@ body {
 
 }
 
+/*---------------------- First_Section ----------------------*/
+
 .page1 {
     height: 100%;
     background-color: #094f4c;
@@ -64,7 +68,7 @@ body {
 }
 
 .leftCard {
-
+    animation: fade-up 0.8s ease 1s;
     width: max-content;
     height: 40rem;
     margin-left: 300px;
@@ -136,6 +140,7 @@ body {
 }
 
 .rightCard {
+    animation: fade-up 0.4s ease 1s;
     width: 20rem;
     background-image: url(img/left.svg);
     background-repeat: no-repeat;
@@ -143,6 +148,23 @@ body {
     margin-top: 200px;
 
 }
+
+
+
+  
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+/*---------------------- Section_2 ----------------------*/
 
 .page2 {
 
@@ -221,6 +243,8 @@ body {
 }
 
 
+/*---------------------- Section_3 ----------------------*/
+
 .page3 {
 
 
@@ -248,6 +272,7 @@ hr {
     border: 1px solid grey;
 }
 
+/*---------------------- Section_4 ----------------------*/
 
 .page4 {
 
@@ -261,6 +286,8 @@ hr {
     width: 15rem;
 
 }
+
+/*---------------------- Section_5 ----------------------*/
 
 .page5 {
 
@@ -321,6 +348,7 @@ hr {
     font-size: 35px;
 }
 
+/*---------------------- Section_6 ----------------------*/
 
 .page6 {
 
@@ -336,6 +364,7 @@ hr {
     font-size: 3rem;
 }
 
+/*---------------------- Section_7 ----------------------*/
 
 .page7 {
 
@@ -679,11 +708,4 @@ hr {
 
 
 
-/* 
-@keyframes animation-name {
-    0% {}
 
-    100% {}
-}
-
-animation-name: */

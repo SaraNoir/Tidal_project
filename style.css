@@ -164,7 +164,7 @@ body {
 
 .page3 {
 
-    border: 2px solid black;
+
     width: 100%;
     height: 100%;
 
@@ -188,21 +188,6 @@ body {
 hr {
     border: 1px solid grey;
 }
-
-
-.qualityForm {
-
-    width: max-content;
-
-    background-color: #09090a;
-
-    display: flex;
-    gap: 3rem;
-    padding: 4rem;
-    align-items: center;
-
-}
-
 
 
 .page4 {
@@ -229,6 +214,19 @@ hr {
 
 }
 
+.qualityForm {
+
+    width: max-content;
+
+    background-color: #09090a;
+
+    display: flex;
+    gap: 3rem;
+    padding: 4rem;
+    align-items: center;
+
+}
+
 .qualityForm img {
     width: 6rem;
     padding-left: 4rem;
@@ -238,16 +236,28 @@ hr {
 
 
 .whatIf {
-    background-color: #09090a;
+    background-color: #101012;
 
-    margin-top: 200px;
+    margin-top: 20rem;
+    width: 100%;
+    padding-bottom: 6rem;
 
 }
+.whatIf img{
+    width: 10rem;
+    gap: 3rem;
+}
 
+.whatIf img:hover{
+    filter: brightness(100%);
+}
 
+#pc{
+    width: 4rem;
+}
 
 .whatIf>p {
-    padding: 200px;
+    padding: 8rem;
     font-size: 35px;
 }
 
@@ -257,7 +267,15 @@ hr {
 
     width: 100%;
     height: 100%;
+    margin-top: 20rem;
+
 }
+
+.soundtrack{
+    margin-bottom: 4rem;
+    font-size: 3rem;
+}
+   
 
 .page7 {
 
@@ -305,9 +323,9 @@ button {
 }
 
 .sizeCard {
-    width: 25rem;
+    width: 22rem;
     height: 40rem;
-    border-radius: 5px;
+    border-radius:0.5rem;
     margin-top: 150px;
 }
 
@@ -351,7 +369,9 @@ button {
 #link {
     text-decoration: underline;
     text-decoration-color: white;
-    margin-bottom: 500px;
+    margin-bottom:10rem;
+    margin-top: 3rem;
+    
 }
 
 .box {
@@ -384,6 +404,21 @@ button {
     font-weight: bold;
 
 }
+
+.faq{
+    background-color: #141417;
+
+padding:6rem 0;
+}
+.faq h1{
+font-size: 3.5rem;
+margin-bottom: 5rem;
+}
+
+.faq p{
+line-height: 2rem;
+}
+
 
 /* ----------------- FOOTER ----------------- */
 
@@ -485,7 +520,6 @@ footer {
     background-color: rgba(0, 255, 255, 0.25);
   }
   
-  /*  --- FOOTER CREDITS --- */
   
   .footer-credits {
     display: grid;

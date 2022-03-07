@@ -151,18 +151,18 @@ body {
 
 
 
-  
-  @keyframes fade-up {
+
+@keyframes fade-up {
     0% {
-      opacity: 0;
-      transform: translateY(500px);
+        opacity: 0;
+        transform: translateY(500px);
     }
-  
+
     100% {
-      opacity: 1;
-      transform: translateY(0px);
+        opacity: 1;
+        transform: translateY(0px);
     }
-  }
+}
 
 /*---------------------- Section_2 ----------------------*/
 
@@ -704,8 +704,3 @@ hr {
     color: #0ff;
     text-transform: underline;
 }
-
-
-
-
-

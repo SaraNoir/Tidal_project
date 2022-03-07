@@ -591,7 +591,11 @@ footer p {
   font-weight: 200;
 }
 
-.footer-grid a {
+.footer-grid-col1 a,
+.footer-grid-col2 a,
+.footer-grid-col3 a,
+.footer-grid-col4 a,
+.footer-copyright a {
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 40px;
@@ -600,7 +604,11 @@ footer p {
   cursor: pointer;
 }
 
-.footer-grid a:hover {
+.footer-grid-col1 a:hover,
+.footer-grid-col2 a:hover,
+.footer-grid-col3 a:hover,
+.footer-grid-col4 a:hover,
+.footer-copyright a:hover {
   border-bottom: solid 1px #0ff;
   color: #0ff;
 }

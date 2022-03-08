@@ -249,7 +249,7 @@ header svg:hover {
 
 .playlist {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   background-color: black;
   text-align: center;
   padding-bottom: 100px;
@@ -764,6 +764,116 @@ hr {
   .footer-grid-col5 {
     display: none;
   }
+
+  
+  .scopri-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "grid-box1"
+    "grid-box2"
+    "grid-box3";
+    row-gap: 2rem;
+  }
+
+  .explore h2 {
+    font-size: 4.6rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .mix-radio {
+    padding: 20px;
+    flex-flow: row wrap;
+  }
+
+  .mix-radio-text {
+    order: 2;
+  }
+
+  .mix-radio-text h1 {
+    margin-top: 30px;
+  }
+
+  .mix-radio-text p {
+    text-align: left;
+  }
+
+  .mix-radio-img img {
+    width: 240px;
+    height: 460px;
+    order: 1;
+  }
+
+  .mix-radio-img {
+    width: 240px;
+    height: 460px;
+  }
+
+  .playlist-text {
+    padding: 100px 20px;
+  }
+
+  .video-live {
+    padding: 10px;
+  }
+
+  .video-img {
+    width: 280px;
+    height: 190px;
+  }
+
+  .video-live-text {
+    order: 2;
+    padding: 20px;
+  }
+
+  .video-img img {
+    order: 1;
+    width: 300px;
+    height: 140px;
+  }
+
+  .credits {
+    padding: 0px;
+  }
+
+  .credits-text {
+    padding: 20px;
+  }
+
+  .credits-img {
+    height: 380px;
+  }
+
+  .credits-img img {
+    width: 300px;
+    height: 340px;
+  }
+
+  .dovunque {
+    padding: 0px;
+  }
+
+  .dovunque-img img {
+    order: 1;
+    width: 300px;
+    height: 180px;
+    padding: 30px;
+  }
+
+  .dovunque-img {
+    margin-top: 40px;
+    height: 210px;
+  }
+
+
+  .dovunque-text {
+    order: 2;
+    padding: 20px;
+  }
+
 }
 
 /*  ----------------- TABLET MEDIA QUERY ----------------- */

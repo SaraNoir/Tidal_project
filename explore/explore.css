@@ -228,6 +228,7 @@ header svg:hover {
   animation-name: fadeInFromBottom;
   animation-duration: 1s;
   animation-delay: 0.3s;
+  width: 600px;
 }
 
 .mix-radio-img {
@@ -394,6 +395,7 @@ header svg:hover {
   justify-content: center;
   flex-direction: column;
   padding-right: 95px;
+  width: 560px;
 }
 
 .dovunque-img {

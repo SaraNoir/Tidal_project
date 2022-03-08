@@ -101,21 +101,26 @@ a {
 }
 
 .explore {
-    height: max-content;
+
     display: flex;
     background: rgb(55, 0, 68);
     background: radial-gradient(#1e0028, #000);
     color: white;
     overflow: hidden;
+    justify-content: flex-end;
+
 }
 
 .explore_card {
-    width: 100%;
-    height: 100%;
     font-size: 1.8rem;
-    position: relative;
     top: 28rem;
     left: 38rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+
 
 }
 
@@ -129,15 +134,21 @@ a {
 }
 
 .explore_card-pic {
-    height: 90rem;
-    width: 150%;
-    background-image: url("../common/imm.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
+
     position: relative;
-    left: 38rem;
-    top: -4rem;
+    top: 4rem;
+    right: -35rem;
+
+
+
+
+}
+
+.explore_card-pic img {
+
+    width: 350rem;
+    height: 70rem;
+    padding-bottom: 7rem;
 
 }
 
@@ -184,6 +195,8 @@ a {
 
 .album_pic-pic {
     position: relative;
+    width: 16rem;
+    height: 16rem;
 }
 
 .album_pic-pic:hover .album-pic-hover {
@@ -195,8 +208,8 @@ a {
 .album-pic-hover {
     position: absolute;
     display: none;
-    width: 160px;
-    height: 160px;
+    width: 16rem;
+    height: 16rem;
     background-color: rgba(2, 5, 5, 0.7);
     bottom: 0;
     top: 0;
@@ -213,13 +226,14 @@ a {
 
 
 .album_pic {
-    height: max-content;
+
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 1.5rem;
     background-color: #000;
     margin-top: 6rem;
     margin-bottom: 16rem;
+    overflow: hidden;
 }
 
 .info {
@@ -718,14 +732,16 @@ footer p {
 }
 
 .footer-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "col1 col2 col3 col4 col5";
     padding: 100px 160px 20px 160px;
     background-color: #09090a;
-    flex-direction: row;
     justify-content: space-around;
     font-size: 1.8rem;
     color: white;
 }
+
 
 .footer-grid h3 {
     font-size: 18px;
@@ -750,28 +766,23 @@ footer p {
 }
 
 .footer-grid-col1 {
-    height: 100%;
-    width: 25%;
+    grid-area: col1;
 }
 
 .footer-grid-col2 {
-    height: 100%;
-    width: 25%;
+    grid-area: col2;
 }
 
 .footer-grid-col3 {
-    height: 100%;
-    width: 25%;
+    grid-area: col3;
 }
 
 .footer-grid-col4 {
-    height: 100%;
-    width: 25%;
+    grid-area: col4;
 }
 
 .footer-grid-col5 {
-    height: 100%;
-    width: 25%;
+    grid-area: col5;
 }
 
 ul {
@@ -882,4 +893,32 @@ hr {
 .footer-copyright-col2 a:hover {
     color: #0ff;
     text-transform: underline;
+}
+
+/*-------media query------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "col1 col2"
+            "col3 col4";
+    }
+
+    .footer-grid-col5 {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .footer-grid {
+        grid-template-columns:1fr;
+        grid-template-areas: "col1"
+                             "col2"
+                             "col3"
+                             "col4";
+
+    }
+    .footer-grid-col5{
+        display: none;
+    }
 }

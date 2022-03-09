@@ -2,103 +2,111 @@ body {
     background-color: #000;
 }
 
-.barnav {
-    display: flex;
-    height: 10rem;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    align-items: center;
-    padding: 2rem 2rem 2rem 5rem;
-}
-
-body {
-    font-family: Montserrat;
-}
-
 button {
     background-color: rgb(255, 255, 255);
     width: max-content;
     white-space: nowrap;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
-    padding: 1rem;
 }
 
 a {
     text-decoration: none;
 }
 
-.link {
+/*Inizio navbar*/
+.container-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
 
+}
+
+.tidal-logo {
+    width: 16rem;
+}
+
+.navbar {
     display: flex;
     flex-direction: row;
-    height: 80px;
-    width: 67rem;
-    gap: 2.3rem;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.wrapper_btn {
+    padding-top: 2rem;
+}
+
+.dropbtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn_access {
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    height: max-content;
     align-items: center;
 }
 
-.navlink {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 1.8rem;
-    font-stretch: expanded;
-    color: white;
-    height: 50%;
-    width: 14rem;
-}
-
-.navlink-1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.dropdown .dropbtn {
     font-size: 2rem;
-    color: white;
-    height: 50%;
-    width: 20rem;
-
-}
-
-
-.parte {
-    display: flex;
-}
-
-
-
-.back {
-
-
-    width: 18rem;
-}
-
-.bianco {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
+    border-radius: 0.5rem;
     border: none;
-    font-weight: bold;
-    font-size: 1.8rem;
+    outline: none;
+    color: white;
+    padding: 1.4rem 1.6rem;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
-.nero {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    padding: 1rem 3rem 1rem 3rem;
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #26282d;
 }
 
-.logo-nav {
-    height: 2rem;
+.dropdown-content {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-.vert {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 1.2rem;
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*end header*/
 
 .explore {
 
@@ -911,14 +919,15 @@ hr {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .footer-grid {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         grid-template-areas: "col1"
-                             "col2"
-                             "col3"
-                             "col4";
+            "col2"
+            "col3"
+            "col4";
 
     }
-    .footer-grid-col5{
+
+    .footer-grid-col5 {
         display: none;
     }
 }

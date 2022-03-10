@@ -874,6 +874,62 @@ hr {
     padding: 20px;
   }
 
+  .scopri h1 {
+    font-size: 4rem;
+    height: 44px;
+  }
+
+  .text-prova h1 {
+    font-size: 4rem;
+  }
+
+  .img-prova img {
+    height: 220px;
+    margin-top: 90px;
+  }
+
+  .scopri-grid {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .scopri-grid h2, .scopri-grid p, .scopri-grid span {
+    margin-left: 25px;
+  }
+
+  .footer-grid {
+    display: block;
+    flex-direction: column;
+  }
+
+  .footer-credits {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: -125px;
+    margin-top: -50px;
+  }
+
+  .footer-credits p {
+    margin-left: 20px;
+  }
+
+  .footer-copyright {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .footer-copyright {
+    padding: 0px 129px 0px 0px
+  }
+
+  .footer-copyright-col2 li {
+    display: block;
+  }
+
+  .footer-copyright svg {
+    padding-left: 45px;
+  }
+
 }
 
 /*  ----------------- TABLET MEDIA QUERY ----------------- */

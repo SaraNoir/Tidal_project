@@ -4,6 +4,7 @@
    * {box-sizing: border-box;}
 
    /* Removes any browser-opinionated spaces */
+
    *,
    *::before,
    *::after {

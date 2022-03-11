@@ -1,3 +1,7 @@
+html {
+    font-size: 10px;
+}
+
 .bold {
     font-weight: 900;
 }
@@ -15,6 +19,20 @@
 }
 
 
+.box {
+    width: max-content;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.cardForm {
+
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+   
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -31,12 +49,12 @@ body {
 
 /*---------------------- Header ----------------------*/
 
-.topCard {
+header {
     height: max-content;
 
     display: flex;
     justify-content: space-between;
-    padding: 50px 70px 0;
+    padding: 3rem 7rem 0;
     align-items: center;
     background-color: #094f4c;
 
@@ -46,15 +64,25 @@ body {
     margin: 0;
 }
 
-.topCard__logo {
+.logo {
 
-    width: 170px;
+    width: 17rem;
 }
 
-.buttonForm {
+/*------------------------ navbar ------------------------*/
+
+.navbar {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 3rem;
+
+}
+#free {
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
 
 }
 
@@ -67,28 +95,28 @@ body {
 
 }
 
-.leftCard {
+.head {
     animation: fade-up 0.8s ease 1s;
     width: max-content;
-    height: 40rem;
-    margin-left: 300px;
-    padding-top: 100px;
+    margin-left: 30rem;
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
-    padding-bottom: 150px;
+    padding-bottom: 15rem;
 
 
 }
 
-.leftCard>h2 {
-    font-size: 10rem;
+.head>h2 {
+    font-size: 20rem;
     font-family: 'League Gothic', sans-serif;
-    letter-spacing: 3PX;
-    line-height: 20px;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
 }
 
-.leftCard>p {
-    padding-top: 100px;
+.head>p {
+    padding-top: 10rem;
+    font-size: 2rem;
 }
 
 #your {
@@ -102,7 +130,7 @@ body {
 .trial {
     background-color: #a9e8e8;
     width: max-content;
-    padding: 20px 30px;
+    padding: 2rem 3rem;
 
 
 }
@@ -113,39 +141,25 @@ body {
 
 .vodafone {
     background-color: #d32c1f;
-    padding: 20px 50px;
-    margin-top: 15px;
+    padding: 2rem 5rem;
+    margin-top: 1.5rem;
 
 }
 
-.leftCard>button {
+.head>button {
     width: max-content;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
-.write {
-    position: relative;
-    bottom: 9rem;
-}
 
-.blueBox div {
-    position: relative;
-    top: 13rem;
-}
 
-.blueBox img {
-    position: relative;
-    top: 3rem;
-
-}
-
-.rightCard {
+.homepage-img {
     animation: fade-up 0.4s ease 1s;
-    width: 20rem;
+    width: 40rem;
     background-image: url(img/left.svg);
     background-repeat: no-repeat;
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 25rem;
+    margin-top: 20rem;
 
 }
 
@@ -164,20 +178,16 @@ body {
     }
 }
 
-/*---------------------- Section_2 ----------------------*/
+/*---------------------- CARDS(red,purple and blue) ----------------------*/
 
-.page2 {
-
-
-    width: 100%;
-    height: 100%;
+.cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
 
 }
 
-.page2 div {
+.cards div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,23 +195,27 @@ body {
 
 
 
-.page2 img {
-    width: 14rem;
-    margin-top: 70px;
+.cards img {
+    width: 30rem;
+    margin-top: 7rem;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
 
 
 }
 
-.page2 p {
+.cards p {
     line-height: 1.5rem;
 }
 
+.cards a{
+    font-size: 2rem;
+}
+
 .sizeCard {
-    width: 22rem;
-    height: 40rem;
-    border-radius: 0.5rem;
-    margin-top: 150px;
+    width: 47rem;
+    height: 80rem;
+    border-radius: 1rem;
+    margin-top: 15rem;
 }
 
 
@@ -212,7 +226,7 @@ body {
 
 .redBox:hover {
     filter: brightness(150%);
-    filter: drop-shadow(0 0 50px #800d2073);
+    filter: drop-shadow(0 0 5rem #800d2073);
     background-color: #800d21;
 }
 
@@ -224,7 +238,7 @@ body {
 
 .purpleBox:hover {
     filter: brightness(150%);
-    filter: drop-shadow(0 0 50px rgba(138, 7, 70, 0.5));
+    filter: drop-shadow(0 0 5rem rgba(138, 7, 70, 0.5));
 
     background: linear-gradient(180deg, rgb(138, 7, 70) 0%, rgba(194, 12, 83, 1) 36%, rgba(110, 11, 96, 1) 66%, rgba(87, 11, 100, 1) 100%);
 }
@@ -238,62 +252,107 @@ body {
 
 .blueBox:hover {
     filter: brightness(150%);
-    filter: drop-shadow(0 0 50px #20178077);
+    filter: drop-shadow(0 0 5rem #20178077);
     background-color: #201780;
 }
 
+.blueBox div {
+    position: relative;
+    top: 25rem;
+}
 
-/*---------------------- Section_3 ----------------------*/
-
-.page3 {
-
-
-    width: 100%;
-    height: 100%;
-
-    margin: 200px 0;
-
+.blueBox img {
+    position: relative;
+    top: 3rem;
 
 }
 
-.page3>h1 {
-    font-size: 60px;
+.blueBox b{
+    font-size: 2.5rem;
 }
 
-.cardForm {
+.blueBox p{
+    line-height: 3rem;
+    font-size: 2rem;
+}
 
-    display: flex;
-    justify-content: center;
-    gap: 80px;
+.write {
+    position: relative;
+    bottom: 22rem;
+    
 
 }
+.write b{
+font-size:2.5rem ;
+}
+
+.write p{
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+
+
+/*---------------------- Sound Section ----------------------*/
+
+.sound-section {
+
+    margin: 20rem 0;
+
+}
+
+.sound-section h1 {
+    font-size: 6rem;
+}
+
+.sound-section p {
+    font-size: 2.2rem;
+}
+
 
 hr {
     border: 1px solid grey;
 }
 
-/*---------------------- Section_4 ----------------------*/
-
-.page4 {
 
 
-    width: 100%;
-    height: 100%;
-}
-
-.card4 {
-    height: 20rem;
-    width: 15rem;
+.sound-card {
+    text-align: justify;
+    padding-top: 25rem;
 
 }
 
-/*---------------------- Section_5 ----------------------*/
+/* .sound-card:hover {} */
 
-.page5 {
+.sound-card div {
+    display: flex;
+}
+.sound-card h1{
+font-size: 5rem;
+}
+
+.sound-card p{
+    font-size: 2rem;
+    line-height: 3rem;
+    }
+
+/* .sound-normal {
+   
+}
+
+.sound-hifi {}
+
+.sound-normal {}
+
+.sound-quality {}
+
+.sound-kbps {}
+ */
+/*---------------------- Wrapper ----------------------*/
+
+.wrapper {
 
 
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,24 +373,35 @@ hr {
 }
 
 .qualityForm img {
-    width: 6rem;
+    width: 12rem;
     padding-left: 4rem;
 }
 
+#mqa{
+    width: 7rem;
+}
+
+.qualityForm p{
+    font-size: 2.5rem;
+}
+
+.qualityForm a{
+    font-size: 2rem;
+}
 
 
 
 .whatIf {
     background-color: #101012;
 
-    margin-top: 20rem;
+    margin-top: 7rem;
     width: 100%;
     padding-bottom: 6rem;
 
 }
 
 .whatIf img {
-    width: 10rem;
+    width: 20rem;
     margin-inline: 3rem;
 }
 
@@ -340,38 +410,148 @@ hr {
 }
 
 #pc {
-    width: 4rem;
+    width: 10rem;
 }
 
 .whatIf>p {
     padding: 8rem;
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 
-/*---------------------- Section_6 ----------------------*/
+/*-------------------- Orange and Green containers --------------------*/
 
-.page6 {
-
-
-    width: 100%;
-    height: 100%;
+.containers {
     margin-top: 20rem;
 
 }
 
 .soundtrack {
     margin-bottom: 4rem;
+    font-size: 6rem;
+}
+.greenContainer h1 {
     font-size: 3rem;
+    color: rgba(0, 0, 0, 0.644);
+
+}
+.greenContainer h1 {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.644);
+
 }
 
-/*---------------------- Section_7 ----------------------*/
+.greenContainer h2 {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.644);
 
-.page7 {
-
-
-    width: 100%;
-    height: 100%;
 }
+.orangeContainer h2{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+.greenList>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 5rem;
+    font-weight: bold;
+}
+
+.orangeList>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 5rem;
+    font-weight: bold;
+}
+
+.greenList li{
+font-size: 2rem;
+color: rgba(0, 0, 0, 0.644);
+}
+
+.orangeList li{
+font-size: 2rem;
+color: rgba(0, 0, 0, 0.644);
+}
+
+.greenContainer {
+    background-color: #33a39d;
+
+
+}
+
+.greenContainer:hover {
+    background-color: #20a39d;
+
+}
+
+.orangeContainer {
+    background-color: #fcae63;
+
+
+}
+
+.orangeContainer:hover {
+    background-color: #fcb878;
+    ;
+}
+
+.greenList {
+    background-color: #72c5c1;
+    padding-bottom: 20rem;
+}
+
+.orangeList {
+    background-color: #fac28c;
+    padding-bottom: 20rem;
+}
+
+#link {
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+
+}
+
+.payForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.payForm>a {
+    color: black;
+    text-decoration: underline;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.payForm p{
+    font-size: 2rem;
+}
+
+.payForm>button {
+    background-color: white;
+    width: max-content;
+    padding: 2rem 10rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+/*---------------------- Playlist ----------------------*/
+
+
 
 .playlist {
     display: grid;
@@ -383,11 +563,12 @@ hr {
 
 .album {
     position: relative;
-
+    width: 22rem;
 }
 
 .album img {
-    width: 220px;
+    width: 100%;
+    height: 100%;
 }
 
 .album:hover .albumText {
@@ -403,7 +584,7 @@ hr {
     align-content: center;
     flex-direction: column;
     position: absolute;
-    width: 220px;
+    width: 22rem;
     bottom: 0;
     top: 0;
     right: 0;
@@ -423,80 +604,10 @@ button {
     border: transparent;
 }
 
-#free {
-    color: black;
-    background-color: white;
-    border-radius: 5px;
-    padding: 0.5rem 1.5rem;
-    font-weight: bold;
-    font-size: 1rem;
-
-}
 
 
 
-.greenContainer {
-    background-color: #33a39d;
-
-
-}
-
-.orangeContainer {
-    background-color: #fcae63;
-
-
-}
-
-.greenList {
-    background-color: #72c5c1;
-
-
-
-}
-
-.orangeList {
-    background-color: #fac28c;
-
-}
-
-#link {
-    text-decoration: underline;
-    text-decoration-color: white;
-    margin-bottom: 10rem;
-    margin-top: 3rem;
-
-}
-
-.box {
-    width: max-content;
-    padding: 40px;
-    border-radius: 10px;
-}
-
-.payForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 300px;
-    font-weight: bold;
-    text-align: center;
-
-}
-
-.payForm>a {
-    color: black;
-    text-decoration: underline;
-    margin-top: 25px;
-}
-
-.payForm>button {
-    background-color: white;
-    width: max-content;
-    padding: 20px 100px;
-    border-radius: 10px;
-    font-weight: bold;
-
-}
+/*---------------------- FAQ ----------------------*/
 
 .faq {
     background-color: #141417;
@@ -505,28 +616,31 @@ button {
 }
 
 .faq h1 {
-    font-size: 3.5rem;
+    font-size: 7rem;
     margin-bottom: 5rem;
+}
+.faq h2 {
+    padding-top: 9rem;
+    font-size: 3rem;
+    
 }
 
 .faq p {
-    line-height: 2rem;
+    line-height: 3rem;
+    font-size: 2rem;
 }
 
 
-/* ----------------- FOOTER ----------------- */
+/* -------------------- Footer -------------------- */
 
 footer {
     background-color: #09090a;
-    font-family: 'Montserrat', sans-serif;
-
 }
 
 footer p {
     color: #9b9b9b;
-    font-size: 1rem;
+    font-size: 13px;
     line-height: 20px;
-    font-weight: 900;
 }
 
 .footer-grid {
@@ -536,30 +650,29 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
     font-size: 1.8rem;
+    color: white;
 }
 
 .footer-grid h3 {
-    font-size: 1.2rem;
+    font-size: 18px;
     color: #9b9b9b;
     font-weight: 200;
 }
 
 .footer-grid a {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 200;
     line-height: 40px;
-    border-bottom: solid 1px transparent;
     transition: all 0.5s ease-in-out;
-    cursor: pointer;
 }
 
 .footer-grid a:hover {
-    border-bottom: solid 1px #0ff;
+    text-decoration: underline;
     color: #0ff;
 }
 
 .footer-grid ul {
-    padding: 0px;
+    padding: 0;
 }
 
 .footer-grid-col1 {
@@ -606,8 +719,8 @@ li {
     padding: 15px 0px;
     width: 100%;
     color: #0ff;
-
-    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
     font-weight: 600;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
@@ -617,33 +730,32 @@ li {
     background-color: rgba(0, 255, 255, 0.25);
 }
 
+/*  */
 
 .footer-credits {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 2rem 12rem 0.5rem 16rem;
+    padding: 20px 400px 5px 150px;
+
 }
 
 .footer-credits svg {
     fill: #9b9b9b;
     width: 25px;
-    padding: 15px;
+    height: 25px;
     transition: all 0.3s ease-in-out;
+    width: 4rem;
 }
 
 .footer-credits svg:hover {
     fill: white;
 }
 
-.footer-credits p {
-    font-size: 0.75rem;
-    line-height: 1.5rem;
-
-}
-
 .footer-credits-col2 {
     display: flex;
     align-items: center;
+    gap: 2rem;
+
 }
 
 
@@ -655,20 +767,14 @@ hr {
 }
 
 .footer-copyright {
-    display: flex;
-    gap: 6rem;
-    justify-content: center;
-
-}
-
-.footer-copyright p {
-    font-size: 0.9rem;
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    padding: 0px 150px 50px 150px;
 }
 
 .footer-copyright svg {
     fill: #9b9b9b;
-    width: 25px;
-    height: 25px;
+    width: 3rem;
     padding-right: 15px;
     transition: all 0.3s ease-in-out;
 }
@@ -681,6 +787,7 @@ hr {
 .footer-copyright-col2 {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .footer-copyright-col2 ul {
@@ -693,7 +800,8 @@ hr {
 }
 
 .footer-copyright-col2 a {
-    font-size: 0.9rem;
+    color: white;
+    font-size: 13px;
     font-weight: 200;
     line-height: 20px;
     margin: 10px;
@@ -703,4 +811,54 @@ hr {
 .footer-copyright-col2 a:hover {
     color: #0ff;
     text-transform: underline;
+}
+
+
+
+/* -------------------- Media query -------------------- */
+
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+
+
+
+
+
+
+
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "f-col1"
+            "f-col2"
+            "f-col3"
+            "f-col4";
+        padding: 40px 40px;
+    }
+
+    .footer-grid-col5 {
+        display: none;
+    }
+}
+
+/*Mobile*/
+
+@media screen (min-width: 320px) and (max-width: 480px) {
+    .navbar {
+        display: none;
+    }
+
+    .cardForm {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
 }

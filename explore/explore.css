@@ -968,8 +968,12 @@ hr {
     width: 328px;
   }
 
+  .mix-radio-text {
+    width: 300px;
+  }
+
   .playlist-text {
-    padding: 50px 0px;
+    padding: 50px 100px;
   }
 
   .video-live {
@@ -979,6 +983,7 @@ hr {
   .video-live-text {
     width: 350px;
     height: 120px;
+    margin-left: -80px;
   }
 
   .video-img img {
@@ -1002,7 +1007,7 @@ hr {
   }
 
   .credits-text p {
-    width: 365px;
+    width: 328px;
   }
 
   .credits-img img {
@@ -1027,6 +1032,11 @@ hr {
   .dovunque-img img {
     height: 157px;
     margin-top: 150px;
+    padding-right: 60px;
+  }
+
+  .dovunque-text {
+    width: 300px;
   }
 
   .dovunque-text p {

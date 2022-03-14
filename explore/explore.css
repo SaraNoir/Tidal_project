@@ -1084,4 +1084,22 @@ hr {
   .footer-grid-col5 {
     display: none;
   }
+
+  .footer-credits {
+    padding: 0px 40px 20px 40px;
+  }
+
+  .footer-copyright {
+    grid-template-columns: 1fr;
+    padding: 20px 40px 50px 40px;
+  }
+
+  .footer-copyright-col2 {
+    justify-content: flex-end;
+  }
+
+  hr {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }

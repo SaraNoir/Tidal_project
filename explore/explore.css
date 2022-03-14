@@ -900,7 +900,7 @@ hr {
   .footer-grid {
     display: block;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   .footer-credits {
@@ -933,6 +933,19 @@ hr {
   hr {
     display: none;
   }
+
+  .footer-copyright-col2, .footer-copyright-col1 {
+    margin-left: -20px;
+  }
+
+  .footer-copyright-col1 {
+    padding-bottom: 20px;
+  }
+
+  .footer-credits-col2 {
+    padding-left: 10px;
+  }
+
 }
 
 /*  ----------------- TABLET MEDIA QUERY ----------------- */

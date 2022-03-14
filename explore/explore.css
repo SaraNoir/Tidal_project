@@ -327,6 +327,7 @@ header svg:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 530px;
 }
 
 .video-img {
@@ -360,6 +361,7 @@ header svg:hover {
 }
 
 .credits-text {
+  width: 580px;
   display: block;
 }
 
@@ -999,6 +1001,7 @@ hr {
   .credits {
     padding-left: 0;
     padding-right: 0;
+    padding: 0px;
   }
 
   .credits-text {
@@ -1027,6 +1030,10 @@ hr {
       "grid-box3";
     padding: 0;
     row-gap: 2rem;
+  }
+
+  .dovunque {
+    padding-bottom: 50px;
   }
 
   .dovunque-img img {
@@ -1062,7 +1069,8 @@ hr {
   }
 
   .scopri-grid-items {
-    width: 580px;
+    width: 520px;
+    margin-left: 50px;
   }
 
   .footer-grid {

@@ -897,22 +897,16 @@ hr {
     width: 330px;
   }
 
-  /* .scopri-grid h2,
-  .scopri-grid p,
-  .scopri-grid span {
-    margin-left: 25px;
-  } */
-
   .footer-grid {
     display: block;
     flex-direction: column;
+    padding-left: 20px;
   }
 
   .footer-credits {
     display: flex;
     flex-direction: column-reverse;
-    margin-left: -125px;
-    margin-top: -50px;
+    padding: 20px 10px 0px 10px;
   }
 
   .footer-credits p {
@@ -925,7 +919,7 @@ hr {
   }
 
   .footer-copyright {
-    padding: 0px 129px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   .footer-copyright-col2 li {
@@ -934,6 +928,10 @@ hr {
 
   .footer-copyright svg {
     padding-left: 45px;
+  }
+
+  hr {
+    display: none;
   }
 }
 

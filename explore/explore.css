@@ -753,27 +753,14 @@ hr {
 /*  ----------------- MOBILE MEDIA QUERY ----------------- */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .footer-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "f-col1"
-      "f-col2"
-      "f-col3"
-      "f-col4";
-    padding: 40px 40px;
-  }
-
-  .footer-grid-col5 {
+  nav,
+  .dropdown-menu,
+  .nav-prova-button {
     display: none;
   }
 
-  .scopri-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "grid-box1"
-      "grid-box2"
-      "grid-box3";
-    row-gap: 2rem;
+  .header-explore {
+    padding: 30px 30px;
   }
 
   .explore h2 {
@@ -813,7 +800,7 @@ hr {
   }
 
   .playlist-text {
-    padding: 100px 20px;
+    padding: 100px 20px 50px;
   }
 
   .video-live {
@@ -853,6 +840,10 @@ hr {
     height: 340px;
   }
 
+  .credits h2 {
+    font-size: 2.2rem;
+  }
+
   .dovunque {
     padding: 0px;
   }
@@ -874,18 +865,30 @@ hr {
     padding: 20px;
   }
 
+  .scopri {
+    padding: 0;
+    padding-top: 3rem;
+    margin-top: 3rem;
+  }
+
   .scopri h1 {
-    font-size: 4rem;
-    height: 44px;
+    font-size: 4.4rem;
   }
 
-  .text-prova h1 {
-    font-size: 4rem;
+  .scopri-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "grid-box1"
+      "grid-box2"
+      "grid-box3";
+    row-gap: 2rem;
+    margin: 0;
+    padding-top: 0;
   }
 
-  .img-prova img {
-    height: 220px;
-    margin-top: 90px;
+  .grid-box-2,
+  .grid-box-3 {
+    height: 280px;
   }
 
   .scopri-grid {
@@ -897,10 +900,27 @@ hr {
     width: 330px;
   }
 
+  .text-prova h1 {
+    font-size: 4rem;
+  }
+
+  .img-prova img {
+    height: 220px;
+    margin-top: 90px;
+  }
+
   .footer-grid {
-    display: block;
-    flex-direction: column;
-    padding-left: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "f-col1"
+      "f-col2"
+      "f-col3"
+      "f-col4";
+    padding: 40px 30px;
+  }
+
+  .footer-grid-col5 {
+    display: none;
   }
 
   .footer-credits {
@@ -934,7 +954,8 @@ hr {
     display: none;
   }
 
-  .footer-copyright-col2, .footer-copyright-col1 {
+  .footer-copyright-col2,
+  .footer-copyright-col1 {
     margin-left: -20px;
   }
 
@@ -945,7 +966,6 @@ hr {
   .footer-credits-col2 {
     padding-left: 10px;
   }
-
 }
 
 /*  ----------------- TABLET MEDIA QUERY ----------------- */

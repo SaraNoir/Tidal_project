@@ -73,6 +73,104 @@ header {
 
     width: 17rem;
 }
+.container-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: #094f4c;
+
+}
+
+.tidal-logo {
+    width: 16rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    gap: 1rem;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.wrapper_btn {
+    padding-top: 2rem;
+}
+
+.dropbtn {
+    display: flex;
+    gap: 1rem;
+}
+
+#free {
+    background-color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.btn_access {
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    height: max-content;
+    align-items: center;
+}
+
+.dropdown .dropbtn {
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.4rem 1.6rem;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #26282d;
+}
+
+.dropdown-content {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /*------------------------ navbar ------------------------*/
 
@@ -1297,6 +1395,7 @@ hr {
     .footer-grid {
         flex-direction: column;
         padding: 40px 0;
+        margin-left:2rem;
     }
 
 

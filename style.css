@@ -2,6 +2,10 @@ html {
     font-size: 10px;
 }
 
+ul {
+    padding: 0;
+}
+
 .bold {
     font-weight: 900;
 }
@@ -43,6 +47,7 @@ a {
 body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 
 
 }
@@ -181,6 +186,11 @@ body {
     font-size: 2rem;
 }
 
+.head-btn {
+    display: flex;
+    flex-direction: column;
+}
+
 #your {
     color: #a9e8e8;
 }
@@ -193,7 +203,7 @@ body {
     background-color: #a9e8e8;
     width: max-content;
     padding: 2rem 3rem;
-
+    border-radius: 5px;
 
 }
 
@@ -205,6 +215,8 @@ body {
     background-color: #d32c1f;
     padding: 2rem 5rem;
     margin-top: 1.5rem;
+    width: max-content;
+    border-radius: 5px;
 
 }
 
@@ -217,8 +229,7 @@ body {
 
 .homepage-img {
     animation: fade-up 0.4s ease 1s;
-    width: 40rem;
-    background-image: url(img/left.svg);
+    width: max-content;
     background-repeat: no-repeat;
     margin-left: 25rem;
     margin-top: 20rem;
@@ -674,7 +685,13 @@ button {
     border: transparent;
 }
 
+.playlist-mobile {
+    display: none;
+}
 
+.playlist-tablet {
+    display: none;
+}
 
 
 /*---------------------- FAQ ----------------------*/
@@ -801,7 +818,7 @@ li {
     background-color: rgba(0, 255, 255, 0.25);
 }
 
-/*  */
+
 
 .footer-credits {
     display: grid;
@@ -893,13 +910,10 @@ hr {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    html {
-        font-size: 8px;
-    }
 
 
 
-    .blueBox {
+    <<<<<<< HEAD .blueBox {
         display: none;
     }
 
@@ -926,43 +940,291 @@ hr {
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
 
-    .navbar {
+    =======>>>>>>>feat/homepage .navbar {
         display: none;
     }
 
-    .page1 {
-
-        flex-direction: column;
-
-    }
-
     .head {
-        margin: 0;
+        margin-left: 0;
+        padding: 5rem 0 10rem 5rem;
+        width: 90%;
+        margin-top: -5rem;
 
     }
 
     .head h2 {
-        font-size: 15rem;
+        font-size: 10rem;
+
+
+    }
+
+    .head p {
+        font-size: 1.2rem;
+
+        padding-top: 5rem;
+    }
+
+    .head-btn {
+
+        font-size: 5rem;
+        padding-top: 4rem;
+
+        padding-top: 5rem;
+    }
+
+    .head-btn button {
+        font-size: 1.5rem;
+    }
+
+
+
+    .homepage-img {
+        margin-left: 0;
+    }
+
+    .homepage-img img {
+        width: 95%;
+    }
+
+
+    .head h2 {
+        font-size: 12rem;
+
+    }
+
+    .cards {
+        justify-content: flex-start;
+        padding-top: 2rem;
+    }
+
+
+
+
+    .sizeCard {
+        width: 25rem;
+        height: 50rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .sizeCard img {
+        margin: 0;
+        width: 70%;
+        padding: 2rem;
+    }
+
+    .write p,
+    .write a,
+    .write b,
+    .blueBox p,
+    .blueBox a,
+    .blueBox b {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .write {
+        margin-top: 12rem;
+    }
+
+    .blueBox div {
+        margin-top: -7rem;
+    }
+
+    .sound-section h1 {
+        font-size: 4rem;
+    }
+
+    .sound-section p {
+        font-size: 2rem;
+    }
+
+    .cardForm {
+        padding: 5rem 3rem;
+        gap: 3rem;
+    }
+
+    .sound-card {
+        padding: 0;
+
+    }
+
+    .sound-card h1 {
+        font-size: 3rem;
+    }
+
+    .sound-card p {
+        font-size: 1.3rem;
+        text-align: left;
+    }
+
+    .qualityForm {
+        width: 85%;
+    }
+
+    .whatIf P {
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 4rem;
+        margin: 0;
+    }
+
+    .whatIf img {
+        width: 16rem;
+
+    }
+
+
+    #pc {
+        width: 8rem;
+    }
+
+    .soundtrack {
+        font-size: 3.3rem;
+    }
+
+    .cardForm,
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .greenContainer {
+        padding: 4rem 6rem;
+    }
+
+    .payForm {
+        margin-top: 4rem;
+    }
+
+
+
+
+
+
+    .playlist {
+        display: none;
+    }
+
+    .playlist-tablet {
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        column-gap: 0.2rem;
+        overflow: hidden;
+    }
+
+    .footer-grid {
+
+        padding: 40px 40px;
+    }
+
+    .footer-grid-col5 {
+        display: none;
+    }
+
+    .footer-credits {
+        padding: 0px 40px 20px 40px;
+    }
+
+    .footer-copyright {
+        grid-template-columns: 1fr;
+        padding: 20px 40px 50px 40px;
+    }
+
+    .footer-copyright-col2 {
+        justify-content: flex-end;
+    }
+
+    hr {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+/*Mobile*/
+
+@media only screen and (max-width:430px) {
+
+
+
+    .navbar {
+        display: none;
+    }
+
+    header {
+        padding: 3rem;
+    }
+
+    .logo {
+
+        width: 12rem;
+
+    }
+
+
+    .page1 {
+
+        flex-direction: column-reverse;
+        align-items: center;
+        overflow: hidden;
+
+
+    }
+
+    .head {
+        margin-left: 0;
+        padding: 0 0 10rem 0;
+        width: 90%;
+        margin-top: -5rem;
+
+    }
+
+
+    .head h2 {
+        font-size: 10rem;
+        text-align: center;
+
     }
 
     .head p {
         font-size: 1.8rem;
+        text-align: center;
+        padding-top: 5rem;
     }
 
+    .head-btn {
+        padding-top: 4rem;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    .homepage-img img {
+        width: 65%;
+
+    }
+
+    .homepage-img {
+        margin-top: 2rem;
+
+    }
 
     .cardForm {
 
         flex-direction: column;
+        gap: 15rem;
+    }
 
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4rem;
 
     }
 
-    .purpleBox {
-        display: none;
-    }
-
-    .blueBox {
-        display: none;
+    .sizeCard {
+        width: 95%;
+        margin-top: 2rem;
     }
 
     .sizeCard img {
@@ -970,14 +1232,57 @@ hr {
         padding: 4rem;
     }
 
+    .sizeCard p {
+        font-size: 1.5rem;
+    }
+
+
+    .sizeCard b {
+        font-size: 2rem;
+    }
+
+    .sound-section h1 {
+        font-size: 4.5rem;
+        margin-top: -10rem;
+
+    }
+
+    .sound-section p {
+        font-size: 1.5rem;
+        padding: 0 5rem;
+        margin-bottom: 20rem;
+        line-height: 2rem;
+
+    }
 
     .sound-card {
         padding: 0;
+        text-align: left;
     }
+
+
+    .cardForm .sound-card {
+        padding-top: 3rem;
+    }
+
+    .sound-card p {
+
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .sound-card h1 {
+
+        font-size: 3rem;
+    }
+
+
 
     .qualityForm {
 
         flex-direction: column;
+        width: 75%;
 
     }
 
@@ -985,24 +1290,108 @@ hr {
         font-size: 1.6rem;
     }
 
+    .qualityForm img {
+        padding: 0;
+        width: 9rem;
+
+    }
+
+
+    .whatIf p {
+        font-size: 2rem;
+        padding: 3rem;
+    }
+
+    .cardForm {
+        align-items: center;
+        text-align: center;
+    }
+
     .box {
 
         flex-direction: column;
-        width: 37rem;
+        width: 70%;
     }
+
+    .box li {
+        font-size: 1.5rem;
+    }
+
+    .payForm {
+        margin: 4rem 0 0 0;
+    }
+
+    .payForm button {
+        width: 100%;
+        padding: 2rem;
+        font-size: 1.7rem;
+    }
+
+    .payForm p {
+        font-size: 1.5rem;
+    }
+
+    .soundtrack {
+        font-size: 3.5rem;
+        font-weight: 600;
+        padding: 3rem;
+        margin-top: 0;
+    }
+
+
+
+    .greenList ul,
+    .orangeList ul {
+        padding: 0;
+        text-align: left;
+    }
+
 
     .greenList,
     .orangeList {
-        width: 30rem;
+        padding-bottom: 2rem;
     }
 
-    .write p {
-        font-size: 1.6rem;
+    .playlist {
+        display: none;
+    }
+
+    .playlist-mobile {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        column-gap: 0.2rem;
+        overflow: hidden;
+    }
+
+    .faq .cardForm {
+        text-align: left;
+        padding-left: 2rem;
+        gap: 2rem;
+    }
+
+    .faq h1 {
+        font-size: 4rem;
+    }
+
+    .faq h2 {
+        font-size: 2.3rem;
+        padding-top: 0;
+
+    }
+
+    .faq p {
+        font-size: 1.3rem;
     }
 
     .footer-grid {
-        display: block;
         flex-direction: column;
+        padding: 40px 0;
+    }
+
+
+    .footer-grid-col5 {
+        display: none;
+        feat/homepage
     }
 
     .footer-credits {
@@ -1010,6 +1399,8 @@ hr {
         flex-direction: column-reverse;
         margin-left: -125px;
         margin-top: -50px;
+        padding: 20px 10px 0px 10px;
+        feat/homepage
     }
 
     .footer-credits p {
@@ -1022,15 +1413,26 @@ hr {
     }
 
     .footer-copyright {
-        padding: 0px 129px 0px 0px
+        padding: 0;
+        margin-left: 20px;
     }
+
 
     .footer-copyright-col2 li {
         display: block;
     }
 
-    .footer-copyright svg {
-        padding-left: 45px;
+    hr {
+        display: none;
     }
 
+    .footer-copyright-col1 {
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .footer-credits-col2 {
+        padding-left: 10px;
+        justify-content: flex-start;
+    }
 }
